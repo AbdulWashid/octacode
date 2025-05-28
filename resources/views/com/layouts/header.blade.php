@@ -25,9 +25,10 @@
 		<nav class="navbar navbar-expand-xl">
 			<div class="container">
 				<!-- Logo START -->
-				<a class="navbar-brand me-0" href="{{URL('/')}}">
-					<img class="light-mode-item navbar-brand-item" src="com_assets/images/logo.svg" alt="logo">
-					<img class="dark-mode-item navbar-brand-item" src="com_assets/images/logo-light.svg" alt="logo">
+				<a class="navbar-brand me-0 d-flex align-items-center" href="{{URL('/')}}">
+					{{-- <img class="light-mode-item navbar-brand-item" src="com_assets/images/logo.svg" alt="logo"> --}}
+					<img class="light-mode-item navbar-brand-item" src="com_assets/images/octacode_logo.png" alt="logo">  <span class="fw-bold mx-2 text-center">Octacode Technology</span>
+					{{-- <img class="dark-mode-item navbar-brand-item" src="com_assets/images/logo-light.svg" alt="logo"> --}}
 				</a>
 				<!-- Logo END -->
 
@@ -257,17 +258,6 @@
 				<ul class="nav align-items-center dropdown-hover ms-sm-2">
 					<!-- Dark mode option START -->
 					<li class="nav-item dropdown dropdown-animation">
-						<button class="btn btn-link mb-0 px-2 lh-1" id="bd-theme"
-						type="button"
-						aria-expanded="false"
-						data-bs-toggle="dropdown"
-						data-bs-display="static">
-						<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"  class="bi bi-circle-half theme-icon-active fill-mode fa-fw" viewBox="0 0 16 16">
-							<path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"/>
-							<use href="#"></use>
-						</svg>
-						</button>
-
 						<ul class="dropdown-menu min-w-auto dropdown-menu-end" aria-labelledby="bd-theme">
 							<li class="mb-1">
 								<button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light">

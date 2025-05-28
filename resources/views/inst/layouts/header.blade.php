@@ -5,14 +5,14 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <ul class="tg-header__top-info list-wrap">
-                            <li><img src="class_assets/img/icons/map_marker.svg" alt="Icon"> <span>589 5th Ave, NY 10024, USA</span></li>
-                            <li><img src="class_assets/img/icons/envelope.svg" alt="Icon"> <a href="mailto:info@skillgrodemo.com">info@skillgrodemo.com</a></li>
+                            <li><img src="inst_assets//img/icons/map_marker.svg" alt="Icon"> <span>589 5th Ave, NY 10024, USA</span></li>
+                            <li><img src="inst_assets//img/icons/envelope.svg" alt="Icon"> <a href="mailto:info@skillgrodemo.com">info@skillgrodemo.com</a></li>
                         </ul>
                     </div>
                     <div class="col-lg-6">
                         <div class="tg-header__top-right">
                             <div class="tg-header__phone">
-                                <img src="class_assets/img/icons/phone.svg" alt="Icon">Call us: <a href="tel:0123456789">+123 599 8989</a>
+                                <img src="inst_assets//img/icons/phone.svg" alt="Icon">Call us: <a href="tel:0123456789">+123 599 8989</a>
                             </div>
                             <ul class="tg-header__top-social list-wrap">
                                 <li>Follow Us On :</li>
@@ -35,7 +35,7 @@
                         <div class="tgmenu__wrap">
                             <nav class="tgmenu__nav">
                                 <div class="logo">
-                                    <a href="index-2.html"><img src="class_assets/img/logo/logo.svg" alt="Logo"></a>
+                                    <a href="index-2.html"><img src="inst_assets//img/logo/logo.svg" alt="Logo"></a>
                                 </div>
                                 <div class="tgmenu__navbar-wrap tgmenu__main-menu d-none d-xl-flex">
                                     <ul class="navigation">
@@ -75,7 +75,7 @@
                                                 </li>
                                                 <li>
                                                     <div class="mega-menu-img">
-                                                        <a href="courses.html"><img src="class_assets/img/others/mega_menu_img.jpg" alt="img"></a>
+                                                        <a href="courses.html"><img src="inst_assets//img/others/mega_menu_img.jpg" alt="img"></a>
                                                     </div>
                                                 </li>
                                             </ul>
@@ -188,13 +188,13 @@
                                     <ul class="list-wrap">
                                         <li class="wishlist-icon">
                                             <a href="cart.html" class="cart-count">
-                                                <img src="class_assets/img/icons/heart.svg" class="injectable" alt="img">
+                                                <img src="inst_assets//img/icons/heart.svg" class="injectable" alt="img">
                                                 <span class="wishlist-count">0</span>
                                             </a>
                                         </li>
                                         <li class="mini-cart-icon">
                                             <a href="cart.html" class="cart-count">
-                                                <img src="class_assets/img/icons/cart.svg" class="injectable" alt="img">
+                                                <img src="inst_assets//img/icons/cart.svg" class="injectable" alt="img">
                                                 <span class="mini-cart-count">0</span>
                                             </a>
                                         </li>
@@ -204,7 +204,7 @@
                                     </ul>
                                 </div>
                                 <div class="mobile-login-btn">
-                                    <a href="login.html"><img src="class_assets/img/icons/user.svg" alt="" class="injectable"></a>
+                                    <a href="login.html"><img src="inst_assets//img/icons/user.svg" alt="" class="injectable"></a>
                                 </div>
                                 <div class="mobile-nav-toggler"><i class="tg-flaticon-menu-1"></i></div>
                             </nav>
@@ -214,7 +214,7 @@
                             <nav class="tgmobile__menu-box">
                                 <div class="close-btn"><i class="tg-flaticon-close-1"></i></div>
                                 <div class="nav-logo">
-                                    <a href="index-2.html"><img src="class_assets/img/logo/logo.svg" alt="Logo"></a>
+                                    <a href="index-2.html"><img src="inst_assets//img/logo/logo.svg" alt="Logo"></a>
                                 </div>
                                 <div class="tgmobile__search">
                                     <form action="#">
