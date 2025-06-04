@@ -11,15 +11,15 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('schedule_calls', function (Blueprint $table) {
+        Schema::create('inquiry', function (Blueprint $table) {
             $table->id();
             $table->string('name');
             $table->string('email')->nullable();
-            $table->string('phone')->nullable();
-            $table->string('subject')->nullable();
+            $table->string('number')->nullable();
+            $table->string('sub')->nullable();
             $table->text('message')->nullable();
-            $table->string('status')->default('pending');
-            $table->dateTime('time');
+            $table->enum('status',['pending','done'])->default('pending');
+            $table->dateTime('time')->nullable();
             $table->timestamps();
         });
     }
@@ -29,6 +29,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('schedule_calls');
+        Schema::dropIfExists('inquiry');
     }
 };

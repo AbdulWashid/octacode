@@ -24,12 +24,15 @@
     <meta name="twitter:card" content="summary_large_image">
 
 	<!-- Favicon -->
-	<link rel="shortcut icon" href="com_assets/images/octacode_logo.ico" type="image/png">
+	<link rel="shortcut icon" href="com_assets/images/octacode_logo.svg" type="image/svg+xml">
 
 	<!-- Google Font -->
 	<link rel="preconnect" href="https://fonts.googleapis.com/">
 	<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastify-js/1.5.0/toastify.css" integrity="sha512-1xBbDQd2ydreJtocowqI+QS+xYVYdv96rB4xu/Peb5uD3SEtCJkGjnMCV3m8oH7XW35KsjqcTR6AytS5H8h8NA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 
 	<!-- Plugins CSS -->
 	<link rel="stylesheet" type="text/css" href="com_assets/vendor/bootstrap-icons/bootstrap-icons.css">
@@ -55,6 +58,7 @@
 	<!-- Bootstrap JS -->
 	<script src="com_assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 	<!--Vendors-->
+	<!-- <script src="com_assets/js/sweetalert211.js"></script> -->
 	<script src="com_assets/vendor/ityped/index.js"></script>
 	<script src="com_assets/vendor/jarallax/jarallax.min.js"></script>
 	<script src="com_assets/vendor/swiper/swiper-bundle.min.js"></script>
@@ -62,6 +66,19 @@
 	<script src="com_assets/vendor/purecounterjs/dist/purecounter_vanilla.js"></script>
 	<!-- Theme Functions -->
 	<script src="com_assets/js/functions.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastify-js/1.5.0/toastify.js" integrity="sha512-0M1OKuNQKhBhA/vqxH7OaS1LZlDwSrSbL3QzcmrlNbkWV0U4ewn8SWfVuRS5nLGV9IXsuNnkdqzyXOYXc0Eo9w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	@if(session('contact-success'))
+		<script>
+				Toastify({
+					text: "{{ session('contact-success') }}",
+					duration: 3000,
+					close: true,
+					gravity: "top", // `top` or `bottom`
+					position: "right", // `left`, `center` or `right`
+				}).showToast();
+		</script>
+	@endif
+
 
 </body>
 </html>

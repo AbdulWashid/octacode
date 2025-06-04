@@ -1,21 +1,15 @@
 <footer class="bg-dark pt-8 pt-md-9 position-relative" data-bs-theme="dark">
-
 	<div class="container">
 		<div class="row g-4 justify-content-between">
 			<!-- Widget 1 START -->
 			<div class="col-lg-4">
 				<!-- logo -->
-				<a href="index.html">
+				<a class="me-0" href="{{URL('/')}}">
 					<img class="h-40px" src="com_assets/images/logo-light.svg" alt="logo">
 				</a>
-
-				<p class="my-3 my-lg-4">A Bootstrap theme that's both stylish and functional, perfect for any type of technology or corporate website.</p>
-				<!-- Social icon -->
-				<ul class="list-inline mb-0">
-					<li class="list-inline-item"> <a class="btn btn-xs btn-icon btn-secondary" href="#"><i class="bi bi-facebook lh-base"></i></a> </li>
-					<li class="list-inline-item"> <a class="btn btn-xs btn-icon btn-secondary" href="#"><i class="bi bi-instagram lh-base"></i></a> </li>
-					<li class="list-inline-item"> <a class="btn btn-xs btn-icon btn-secondary" href="#"><i class="bi bi-twitter-x lh-base"></i></a> </li>
-					<li class="list-inline-item"> <a class="btn btn-xs btn-icon btn-secondary" href="#"><i class="bi bi-linkedin lh-base"></i></a> </li>
+				<ul class="list-wrap">
+					<p>L-155, Indra Nagar, Indira Nagar, Neemuch (458441), M.P., India</p>
+					<p>+91 62643 55302</p>
 				</ul>
 			</div>
 			<!-- Widget 1 END -->
@@ -25,28 +19,24 @@
 				<div class="row g-4">
 					<!-- Link block -->
 					<div class="col-6">
-						<h6 class="mb-3 mb-sm-4">Company</h6>
+						<h6 class="mb-3 mb-sm-4">Get In Touch</h6>
 						<!-- Links -->
-						<ul class="nav flex-column gap-1">
-							<li class="nav-item"><a class="nav-link pt-0" href="about-v1.html">About us</a></li>
-							<li class="nav-item"><a class="nav-link" href="contact-us.html">Contact us</a></li>
-							<li class="nav-item"><a class="nav-link" href="career.html">Career <span class="badge bg-primary ms-2">2 jobs</span></a></li>
-							<li class="nav-item"><a class="nav-link" href="career-single.html">Career detail</a></li>
-							<li class="nav-item"><a class="nav-link" href="contact-us-v2.html">Become a partner</a></li>
-							<li class="nav-item"><a class="nav-link" href="service-v1.html">Services</a></li>
-						</ul>
-					</div>
-
-					<!-- Link block -->
-					<div class="col-6">
-						<h6 class="mb-3 mb-sm-4">Resources</h6>
-						<!-- Links -->
-						<ul class="nav flex-column gap-1">
-							<li class="nav-item"><a class="nav-link pt-0" href="portfolio-case-study-v1.html">Case studies</a></li>
-							<li class="nav-item"><a class="nav-link" href="pricing-v1.html">Pricing <span class="badge bg-success ms-2">New</span></a></li>
-							<li class="nav-item"><a class="nav-link" href="blog-minimal.html">Blogs</a></li>
-							<li class="nav-item"><a class="nav-link" href="blog-single.html">Blog detail</a></li>
-							<li class="nav-item"><a class="nav-link" href="#">Success stories<i class="bi bi-box-arrow-up-right small ms-2"></i></a></li>
+						<ul class="list-inline mb-0">
+							<li  class="list-inline-item">
+								<a href="https://www.facebook.com/octacodes.technologu.3/" target="_blank">
+									<img src="inst_assets/img/icons/facebook.svg" alt="img" class="injectable">
+								</a>
+							</li>
+							<li  class="list-inline-item">
+								<a href="https://wa.me/6264355302" target="_blank">
+									<img src="inst_assets/img/icons/whatsapp.svg" alt="img" class="injectable">
+								</a>
+							</li>
+							<li  class="list-inline-item">
+								<a href="https://www.instagram.com/octacodes_technologies?igsh=MW9zbjJnenc2cTl6bw==" target="_blank">
+									<img src="inst_assets/img/icons/instagram.svg" alt="img" class="injectable">
+								</a>
+							</li>
 						</ul>
 					</div>
 				</div>
@@ -60,12 +50,12 @@
 		<!-- Bottom footer -->
 		<div class="d-md-flex justify-content-between align-items-center text-center text-lg-start py-4">
 			<!-- copyright text -->
-			<div class="text-body small mb-3 mb-md-0"> Copyrights ©2025 Octacodes Technology.</div>
+			<div class="text-body small mb-3 mb-md-0"> © 2024-2025 Octacodetechnologies.com. All rights reserved.</div>
 			
 			<!-- Policy link -->
 			<ul class="nav d-flex justify-content-center gap-1 mb-0">
-				<li class="nav-item"><a class="nav-link small py-0" href="#">Privacy policy</a></li>
-				<li class="nav-item"><a class="nav-link small py-0 pe-0" href="#">Terms & conditions</a></li>
+				<li class="nav-item"><a class="nav-link small py-0" href="#">Terms of Use</a></li>
+				<li class="nav-item"><a class="nav-link small py-0 pe-0" href="#">Privacy Policy</a></li>
 			</ul>
 		</div>
 	</div>
@@ -79,41 +69,54 @@
   </div>
   <div class="offcanvas-body">
 		<!-- Form START -->
-		<form class="row g-3" action="" method="POST">
+		<form class="row g-3" action="{{route('contactData')}}" method="POST">
 			@csrf
 			<div class="col-12">
-				<label class="form-label">Your name *</label>
-				<input type="text" class="form-control form-control-sm" placeholder="Full name">
+				<label class="form-label">Your name</label>
+				<input type="text" class="form-control form-control-sm" placeholder="Full name" value="{{old('name')}}" name="name">
+				@error('name')
+					<span class="text-danger small">{{$message}}</span>
+				@enderror
 			</div>
 
 			<div class="col-12">
-				<label class="form-label">Email address *</label>
-				<input type="email" class="form-control form-control-sm" id="floatingInput" placeholder="name@example.com">
-			</div>
-
-			<div class="col-6">
-				<label class="form-label">Schedule date *</label>
-				<input type="date" class="form-control form-control-sm">
-			</div>
-
-			<div class="col-6">
-				<label class="form-label">Schedule date *</label>
-				<input type="time" class="form-control form-control-sm">
+				<label class="form-label">Email address</label>
+				<input type="email" class="form-control form-control-sm" id="floatingInput" placeholder="name@example.com" value="{{old('email')}}" name="email">
+				@error('email')
+					<span class="text-danger small">{{$message}}</span>
+				@enderror
 			</div>
 
 			<div class="col-12">
-				<label class="form-label">Phone number *</label>
-				<input type="text" class="form-control form-control-sm" placeholder="(xxx) xx xxxx">
+				<label class="form-label">Schedule date</label>
+				<input type="datetime-local" class="form-control form-control-sm" name="date" value="{{old('date')}}">
+				@error('date')
+					<span class="text-danger small">{{$message}}</span>
+				@enderror
 			</div>
 
 			<div class="col-12">
-				<label class="form-label">Subject *</label>
-				<input type="text" class="form-control form-control-sm" placeholder="Subject name">
+				<label class="form-label">Phone number</label>
+				<input type="text" class="form-control form-control-sm" placeholder="(xxx) xx xxxx" value="{{old('number')}}" name="number">
+				@error('number')
+					<span class="text-danger small">{{$message}}</span>
+				@enderror
 			</div>
 
 			<div class="col-12">
-				<label class="form-label">Message *</label>
-				<textarea class="form-control" placeholder="Write your message here...." id="floatingTextarea2" style="height: 150px"></textarea>
+				<label class="form-label">Subject</label>
+				<input type="text" class="form-control form-control-sm" placeholder="Subject name" value="{{old('sub')}}" name="sub">
+				@error('sub')
+					<span class="text-danger small">{{$message}}</span>
+				@enderror
+			</div>
+
+			<div class="col-12">
+				<label class="form-label">Message</label>
+				<textarea class="form-control" placeholder="Write your message here...." id="floatingTextarea2" style="height: 150px" name="message">{{old('message')}}</textarea>
+				@error('message')
+					<span class="text-danger small">{{$message}}</span>
+				@enderror
 			</div>
 			<!-- Button -->
 			<button class="btn btn-primary mb-0">Send a message</button>

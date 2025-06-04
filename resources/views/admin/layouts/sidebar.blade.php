@@ -3,16 +3,16 @@
         <!--begin::Sidebar Brand-->
         <div class="sidebar-brand">
           <!--begin::Brand Link-->
-          <a href="./index.html" class="brand-link">
+          <a href="" class="brand-link">
             <!--begin::Brand Image-->
             <img
-              src="admin_assets/assets/img/AdminLTELogo.png"
+              src="com_assets/images/octacode_logo.png"
               alt="AdminLTE Logo"
               class="brand-image opacity-75 shadow"
             />
             <!--end::Brand Image-->
             <!--begin::Brand Text-->
-            <span class="brand-text fw-light">AdminLTE 4</span>
+            <span class="brand-text fw-light">Octacode <br> Technologies</span>
             <!--end::Brand Text-->
           </a>
           <!--end::Brand Link-->

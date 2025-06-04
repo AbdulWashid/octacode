@@ -6,42 +6,12 @@
                     <div class="col-xl-3 col-lg-4 col-md-6">
                         <div class="footer__widget">
                             <div class="logo mb-35">
-                                <a href="index-2.html"><img src="inst_assets//img/logo/secondary_logo.svg" alt="img"></a>
+                                <a href="index-2.html"><img src="img/logo/secondary_logo.svg" alt="img"></a>
                             </div>
                             <div class="footer__content">
-                                <p>when an unknown printer took galley of type and scrambled it to make pspecimen bookt has.</p>
                                 <ul class="list-wrap">
-                                    <li>463 7th Ave, NY 10018, USA</li>
-                                    <li>+123 88 9900 456</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                        <div class="footer__widget">
-                            <h4 class="footer__widget-title">Useful Links</h4>
-                            <div class="footer__link">
-                                <ul class="list-wrap">
-                                    <li><a href="events-details.html">Our values</a></li>
-                                    <li><a href="events-details.html">Our advisory board</a></li>
-                                    <li><a href="events-details.html">Our partners</a></li>
-                                    <li><a href="events-details.html">Become a partner</a></li>
-                                    <li><a href="events-details.html">Work at Future Learn</a></li>
-                                    <li><a href="events-details.html">Quizlet Plus</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                        <div class="footer__widget">
-                            <h4 class="footer__widget-title">Our Company</h4>
-                            <div class="footer__link">
-                                <ul class="list-wrap">
-                                    <li><a href="contact.html">Contact Us</a></li>
-                                    <li><a href="instructor-details.html">Become Teacher</a></li>
-                                    <li><a href="blog.html">Blog</a></li>
-                                    <li><a href="instructor-details.html">Instructor</a></li>
-                                    <li><a href="events-details.html">Events</a></li>
+                                    <li>L-155, Indra Nagar, Indira Nagar, Neemuch (458441), M.P., India</li>
+                                    <li>+91 62643 55302</li>
                                 </ul>
                             </div>
                         </div>
@@ -50,38 +20,23 @@
                         <div class="footer__widget">
                             <h4 class="footer__widget-title">Get In Touch</h4>
                             <div class="footer__contact-content">
-                                <p>when an unknown printer took <br> galley type and scrambled</p>
                                 <ul class="list-wrap footer__social">
                                     <li>
-                                        <a href="https://www.facebook.com/" target="_blank">
-                                            <img src="inst_assets//img/icons/facebook.svg" alt="img" class="injectable">
+                                        <a href="https://www.facebook.com/octacodes.technologu.3/" target="_blank">
+                                            <img src="img/icons/facebook.svg" alt="img" class="injectable">
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="https://www.facebook.com/" target="_blank">
-                                            <img src="inst_assets//img/icons/twitter.svg" alt="img" class="injectable">
+                                        <a href="https://wa.me/6264355302" target="_blank">
+                                            <img src="img/icons/whatsapp.svg" alt="img" class="injectable">
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="https://www.facebook.com/" target="_blank">
-                                            <img src="inst_assets//img/icons/whatsapp.svg" alt="img" class="injectable">
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.facebook.com/" target="_blank">
-                                            <img src="inst_assets//img/icons/instagram.svg" alt="img" class="injectable">
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.facebook.com/" target="_blank">
-                                            <img src="inst_assets//img/icons/youtube.svg" alt="img" class="injectable">
+                                        <a href="https://www.instagram.com/octacodes_technologies?igsh=MW9zbjJnenc2cTl6bw==" target="_blank">
+                                            <img src="img/icons/instagram.svg" alt="img" class="injectable">
                                         </a>
                                     </li>
                                 </ul>
-                            </div>
-                            <div class="app-download">
-                                <a href="#"><img src="inst_assets//img/others/google-play.svg" alt="img"></a>
-                                <a href="#"><img src="inst_assets//img/others/apple-store.svg" alt="img"></a>
                             </div>
                         </div>
                     </div>
@@ -93,7 +48,7 @@
                 <div class="row align-items-center">
                     <div class="col-md-7">
                         <div class="copy-right-text">
-                            <p>© 2010-2024 skillgro.com. All rights reserved.</p>
+                            <p>© 2024-2025 Octacodetechnologies.com. All rights reserved.</p>
                         </div>
                     </div>
                     <div class="col-md-5">

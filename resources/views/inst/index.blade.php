@@ -1,50 +1,10 @@
 @extends('inst.layouts.master')
-@section('title', 'Skillgro - Class Index')
+@section('title', 'Octacode Institude')
 @section('content')
-
-@push('css')
-    <style>
-        .whatsapp-btn {
-        position: fixed;
-        bottom: 20px;
-        right: 20px;
-        background-color: #25D366;
-        color: white;
-        font-size: 24px;
-        padding: 14px;
-        border-radius: 50%;
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-        z-index: 1050;
-        }
-
-        .whatsapp-btn:hover {
-        background-color: #1ebe5d;
-        color: white;
-        }
-    </style>
-@endpush
-
-    {{-- <a href="https://wa.me/9669060524" target="_blank" title="Chat on WhatsApp">
-    <i class="fab fa-whatsapp" style="
-        color: white;
-        background-color: #25D366;
-        padding: 12px;
-        border-radius: 50%;
-        font-size: 28px;
-        "></i>
-    </a> --}}
-    <a
-        href="https://wa.me/911234567890?text=Hello%2C%20I%20would%20like%20to%20know%20more%20about%20your%20services"
-        target="_blank"
-        class="whatsapp-btn"
-        title="Chat with us on WhatsApp">
-        <i class="fab fa-whatsapp"></i>
-    </a>
-
     <!-- main-area -->
     <main class="main-area fix">
         <!-- banner-area -->
-        <section class="banner-area banner-bg tg-motion-effects" data-background="inst_assets//img/banner/banner_bg.png">
+        <section class="banner-area banner-bg tg-motion-effects" data-background="img/banner/banner_bg.png">
             <div class="container">
                 <div class="row justify-content-between align-items-start">
                     <div class="col-xl-5 col-lg-6">
@@ -52,7 +12,7 @@
                             <h3 class="title tg-svg" data-aos="fade-right" data-aos-delay="400">
                                 Never Stop
                                 <span class="position-relative">
-                                    <span class="svg-icon" id="banner-svg" data-svg-icon="inst_assets//img/objects/title_shape.svg"></span>
+                                    <span class="svg-icon" id="banner-svg" data-svg-icon="img/objects/title_shape.svg"></span>
                                     <svg x="0px" y="0px" preserveAspectRatio="none" viewBox="0 0 209 59" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M4.74438 7.70565C69.7006 -1.18799 136.097 -2.38304 203.934 4.1205C207.178 4.48495 209.422 7.14626 208.933 10.0534C206.793 23.6481 205.415 36.5704 204.801 48.8204C204.756 51.3291 202.246 53.5582 199.213 53.7955C136.093 59.7623 74.1922 60.5985 13.5091 56.3043C10.5653 56.0924 7.84371 53.7277 7.42158 51.0325C5.20725 38.2627 2.76333 25.6511 0.0898448 13.1978C-0.465589 10.5873 1.61173 8.1379 4.73327 7.70565" fill="currentcolor" />
                                     </svg>
@@ -62,38 +22,38 @@
                             </h3>
                             <p data-aos="fade-right" data-aos-delay="600">Every teaching and learning journey is unique Following We'll help guide your way.</p>
                             <div class="banner__btn-wrap" data-aos="fade-right" data-aos-delay="800">
-                                <a href="contact.html" class="btn arrow-btn">Start Free Trial <img src="inst_assets//img/icons/right_arrow.svg" alt="img" class="injectable"></a>
+                                <a href="contact.html" class="btn arrow-btn">Start Free Trial <img src="img/icons/right_arrow.svg" alt="img" class="injectable"></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="banner__images">
-                            <img src="inst_assets//img/banner/banner_img.png" alt="img" class="main-img">
+                            <img src="img/banner/banner_img.png" alt="img" class="main-img">
                             <div class="shape big-shape" data-aos="fade-up-right" data-aos-delay="600">
-                                <img src="inst_assets//img/banner/banner_shape01.png" alt="shape" class="tg-motion-effects1">
+                                <img src="img/banner/banner_shape01.png" alt="shape" class="tg-motion-effects1">
                             </div>
-                            <img src="inst_assets//img/banner/bg_dots.svg" alt="shape" class="shape bg-dots rotateme">
-                            <img src="inst_assets//img/banner/banner_shape02.png" alt="shape" class="shape small-shape tg-motion-effects3">
+                            <img src="img/banner/bg_dots.svg" alt="shape" class="shape bg-dots rotateme">
+                            <img src="img/banner/banner_shape02.png" alt="shape" class="shape small-shape tg-motion-effects3">
                             <div class="banner__author">
                                 <div class="banner__author-item">
                                     <div class="image">
-                                        <img src="inst_assets//img/banner/banner_author01.png" alt="img">
+                                        <img src="img/banner/banner_author01.png" alt="img">
                                     </div>
                                     <h6 class="name">Robert Fox</h6>
                                 </div>
                                 <div class="banner__author-item">
                                     <div class="image">
-                                        <img src="inst_assets//img/banner/banner_author02.png" alt="img">
+                                        <img src="img/banner/banner_author02.png" alt="img">
                                     </div>
                                     <h6 class="name">Michel Jones</h6>
                                 </div>
-                                <img src="inst_assets//img/banner/banner_shape02.svg" alt="shape" class="arrow-shape tg-motion-effects3">
+                                <img src="img/banner/banner_shape02.svg" alt="shape" class="arrow-shape tg-motion-effects3">
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <img src="inst_assets//img/banner/banner_shape01.svg" alt="shape" class="line-shape" data-aos="fade-right" data-aos-delay="1600">
+            <img src="img/banner/banner_shape01.svg" alt="shape" class="line-shape" data-aos="fade-right" data-aos-delay="1600">
         </section>
         <!-- banner-area-end -->
 
@@ -217,40 +177,40 @@
             <div class="container-fluid">
                 <div class="marquee_mode">
                     <div class="brand__item">
-                        <a href="#"><img src="inst_assets//img/brand/brand01.png" alt="brand"></a>
-                        <img src="inst_assets//img/icons/brand_star.svg" alt="star">
+                        <a href="#"><img src="img/brand/brand01.png" alt="brand"></a>
+                        <img src="img/icons/brand_star.svg" alt="star">
                     </div>
                     <div class="brand__item">
-                        <a href="#"><img src="inst_assets//img/brand/brand02.png" alt="brand"></a>
-                        <img src="inst_assets//img/icons/brand_star.svg" alt="star">
+                        <a href="#"><img src="img/brand/brand02.png" alt="brand"></a>
+                        <img src="img/icons/brand_star.svg" alt="star">
                     </div>
                     <div class="brand__item">
-                        <a href="#"><img src="inst_assets//img/brand/brand03.png" alt="brand"></a>
-                        <img src="inst_assets//img/icons/brand_star.svg" alt="star">
+                        <a href="#"><img src="img/brand/brand03.png" alt="brand"></a>
+                        <img src="img/icons/brand_star.svg" alt="star">
                     </div>
                     <div class="brand__item">
-                        <a href="#"><img src="inst_assets//img/brand/brand04.png" alt="brand"></a>
-                        <img src="inst_assets//img/icons/brand_star.svg" alt="star">
+                        <a href="#"><img src="img/brand/brand04.png" alt="brand"></a>
+                        <img src="img/icons/brand_star.svg" alt="star">
                     </div>
                     <div class="brand__item">
-                        <a href="#"><img src="inst_assets//img/brand/brand05.png" alt="brand"></a>
-                        <img src="inst_assets//img/icons/brand_star.svg" alt="star">
+                        <a href="#"><img src="img/brand/brand05.png" alt="brand"></a>
+                        <img src="img/icons/brand_star.svg" alt="star">
                     </div>
                     <div class="brand__item">
-                        <a href="#"><img src="inst_assets//img/brand/brand06.png" alt="brand"></a>
-                        <img src="inst_assets//img/icons/brand_star.svg" alt="star">
+                        <a href="#"><img src="img/brand/brand06.png" alt="brand"></a>
+                        <img src="img/icons/brand_star.svg" alt="star">
                     </div>
                     <div class="brand__item">
-                        <a href="#"><img src="inst_assets//img/brand/brand07.png" alt="brand"></a>
-                        <img src="inst_assets//img/icons/brand_star.svg" alt="star">
+                        <a href="#"><img src="img/brand/brand07.png" alt="brand"></a>
+                        <img src="img/icons/brand_star.svg" alt="star">
                     </div>
                     <div class="brand__item">
-                        <a href="#"><img src="inst_assets//img/brand/brand04.png" alt="brand"></a>
-                        <img src="inst_assets//img/icons/brand_star.svg" alt="star">
+                        <a href="#"><img src="img/brand/brand04.png" alt="brand"></a>
+                        <img src="img/icons/brand_star.svg" alt="star">
                     </div>
                     <div class="brand__item">
-                        <a href="#"><img src="inst_assets//img/brand/brand03.png" alt="brand"></a>
-                        <img src="inst_assets//img/icons/brand_star.svg" alt="star">
+                        <a href="#"><img src="img/brand/brand03.png" alt="brand"></a>
+                        <img src="img/icons/brand_star.svg" alt="star">
                     </div>
                 </div>
             </div>
@@ -263,8 +223,8 @@
                 <div class="row align-items-center justify-content-center">
                     <div class="col-lg-6 col-md-9">
                         <div class="about__images">
-                            <img src="inst_assets//img/others/about_img.png" alt="img" class="main-img">
-                            <img src="inst_assets//img/others/about_shape.svg" alt="img" class="shape alltuchtopdown">
+                            <img src="img/others/about_img.png" alt="img" class="main-img">
+                            <img src="img/others/about_shape.svg" alt="img" class="shape alltuchtopdown">
                             <a href="https://www.youtube.com/watch?v=b2Az7_lLh3g" class="popup-video">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="22" height="28" viewBox="0 0 22 28" fill="none">
                                     <path d="M0.19043 26.3132V1.69421C0.190288 1.40603 0.245303 1.12259 0.350273 0.870694C0.455242 0.6188 0.606687 0.406797 0.79027 0.254768C0.973854 0.10274 1.1835 0.0157243 1.39936 0.00193865C1.61521 -0.011847 1.83014 0.0480663 2.02378 0.176003L20.4856 12.3292C20.6973 12.4694 20.8754 12.6856 20.9999 12.9535C21.1245 13.2214 21.1904 13.5304 21.1904 13.8456C21.1904 14.1608 21.1245 14.4697 20.9999 14.7376C20.8754 15.0055 20.6973 15.2217 20.4856 15.3619L2.02378 27.824C1.83056 27.9517 1.61615 28.0116 1.40076 27.9981C1.18536 27.9847 0.97607 27.8983 0.792638 27.7472C0.609205 27.596 0.457661 27.385 0.352299 27.1342C0.246938 26.8833 0.191236 26.6008 0.19043 26.3132Z" fill="currentcolor" />
@@ -272,7 +232,7 @@
                             </a>
                             <div class="about__enrolled" data-aos="fade-right" data-aos-delay="200">
                                 <p class="title"><span>36K+</span> Enrolled Students</p>
-                                <img src="inst_assets//img/others/student_grp.png" alt="img">
+                                <img src="img/others/student_grp.png" alt="img">
                             </div>
                         </div>
                     </div>
@@ -308,7 +268,7 @@
                                 </li>
                             </ul>
                             <div class="tg-button-wrap">
-                                <a href="about-us.html" class="btn arrow-btn">Start Free Trial <img src="inst_assets//img/icons/right_arrow.svg" alt="img" class="injectable"></a>
+                                <a href="about-us.html" class="btn arrow-btn">Start Free Trial <img src="img/icons/right_arrow.svg" alt="img" class="injectable"></a>
                             </div>
                         </div>
                     </div>
@@ -318,7 +278,7 @@
         <!-- about-area-end -->
 
         <!-- course-area -->
-        <section class="courses-area section-pt-120 section-pb-90" data-background="inst_assets//img/bg/courses_bg.jpg">
+        <section class="courses-area section-pt-120 section-pb-90" data-background="img/bg/courses_bg.jpg">
             <div class="container">
                 <div class="section__title-wrap">
                     <div class="row justify-content-center">
@@ -367,7 +327,7 @@
                                     <div class="courses__item shine__animate-item">
                                         <div class="courses__item-thumb">
                                             <a href="course-details.html" class="shine__animate-link">
-                                                <img src="inst_assets//img/courses/course_thumb01.jpg" alt="img">
+                                                <img src="img/courses/course_thumb01.jpg" alt="img">
                                             </a>
                                         </div>
                                         <div class="courses__item-content">
@@ -395,7 +355,7 @@
                                     <div class="courses__item shine__animate-item">
                                         <div class="courses__item-thumb">
                                             <a href="course-details.html" class="shine__animate-link">
-                                                <img src="inst_assets//img/courses/course_thumb02.jpg" alt="img">
+                                                <img src="img/courses/course_thumb02.jpg" alt="img">
                                             </a>
                                         </div>
                                         <div class="courses__item-content">
@@ -423,7 +383,7 @@
                                     <div class="courses__item shine__animate-item">
                                         <div class="courses__item-thumb">
                                             <a href="course-details.html" class="shine__animate-link">
-                                                <img src="inst_assets//img/courses/course_thumb03.jpg" alt="img">
+                                                <img src="img/courses/course_thumb03.jpg" alt="img">
                                             </a>
                                         </div>
                                         <div class="courses__item-content">
@@ -451,7 +411,7 @@
                                     <div class="courses__item shine__animate-item">
                                         <div class="courses__item-thumb">
                                             <a href="course-details.html" class="shine__animate-link">
-                                                <img src="inst_assets//img/courses/course_thumb04.jpg" alt="img">
+                                                <img src="img/courses/course_thumb04.jpg" alt="img">
                                             </a>
                                         </div>
                                         <div class="courses__item-content">
@@ -479,7 +439,7 @@
                                     <div class="courses__item shine__animate-item">
                                         <div class="courses__item-thumb">
                                             <a href="course-details.html" class="shine__animate-link">
-                                                <img src="inst_assets//img/courses/course_thumb05.jpg" alt="img">
+                                                <img src="img/courses/course_thumb05.jpg" alt="img">
                                             </a>
                                         </div>
                                         <div class="courses__item-content">
@@ -507,7 +467,7 @@
                                     <div class="courses__item shine__animate-item">
                                         <div class="courses__item-thumb">
                                             <a href="course-details.html" class="shine__animate-link">
-                                                <img src="inst_assets//img/courses/course_thumb06.jpg" alt="img">
+                                                <img src="img/courses/course_thumb06.jpg" alt="img">
                                             </a>
                                         </div>
                                         <div class="courses__item-content">
@@ -545,7 +505,7 @@
                                     <div class="courses__item shine__animate-item">
                                         <div class="courses__item-thumb">
                                             <a href="course-details.html" class="shine__animate-link">
-                                                <img src="inst_assets//img/courses/course_thumb03.jpg" alt="img">
+                                                <img src="img/courses/course_thumb03.jpg" alt="img">
                                             </a>
                                         </div>
                                         <div class="courses__item-content">
@@ -573,7 +533,7 @@
                                     <div class="courses__item shine__animate-item">
                                         <div class="courses__item-thumb">
                                             <a href="course-details.html" class="shine__animate-link">
-                                                <img src="inst_assets//img/courses/course_thumb04.jpg" alt="img">
+                                                <img src="img/courses/course_thumb04.jpg" alt="img">
                                             </a>
                                         </div>
                                         <div class="courses__item-content">
@@ -601,7 +561,7 @@
                                     <div class="courses__item shine__animate-item">
                                         <div class="courses__item-thumb">
                                             <a href="course-details.html" class="shine__animate-link">
-                                                <img src="inst_assets//img/courses/course_thumb01.jpg" alt="img">
+                                                <img src="img/courses/course_thumb01.jpg" alt="img">
                                             </a>
                                         </div>
                                         <div class="courses__item-content">
@@ -629,7 +589,7 @@
                                     <div class="courses__item shine__animate-item">
                                         <div class="courses__item-thumb">
                                             <a href="course-details.html" class="shine__animate-link">
-                                                <img src="inst_assets//img/courses/course_thumb02.jpg" alt="img">
+                                                <img src="img/courses/course_thumb02.jpg" alt="img">
                                             </a>
                                         </div>
                                         <div class="courses__item-content">
@@ -657,7 +617,7 @@
                                     <div class="courses__item shine__animate-item">
                                         <div class="courses__item-thumb">
                                             <a href="course-details.html" class="shine__animate-link">
-                                                <img src="inst_assets//img/courses/course_thumb05.jpg" alt="img">
+                                                <img src="img/courses/course_thumb05.jpg" alt="img">
                                             </a>
                                         </div>
                                         <div class="courses__item-content">
@@ -685,7 +645,7 @@
                                     <div class="courses__item shine__animate-item">
                                         <div class="courses__item-thumb">
                                             <a href="course-details.html" class="shine__animate-link">
-                                                <img src="inst_assets//img/courses/course_thumb06.jpg" alt="img">
+                                                <img src="img/courses/course_thumb06.jpg" alt="img">
                                             </a>
                                         </div>
                                         <div class="courses__item-content">
@@ -723,7 +683,7 @@
                                     <div class="courses__item shine__animate-item">
                                         <div class="courses__item-thumb">
                                             <a href="course-details.html" class="shine__animate-link">
-                                                <img src="inst_assets//img/courses/course_thumb02.jpg" alt="img">
+                                                <img src="img/courses/course_thumb02.jpg" alt="img">
                                             </a>
                                         </div>
                                         <div class="courses__item-content">
@@ -751,7 +711,7 @@
                                     <div class="courses__item shine__animate-item">
                                         <div class="courses__item-thumb">
                                             <a href="course-details.html" class="shine__animate-link">
-                                                <img src="inst_assets//img/courses/course_thumb03.jpg" alt="img">
+                                                <img src="img/courses/course_thumb03.jpg" alt="img">
                                             </a>
                                         </div>
                                         <div class="courses__item-content">
@@ -779,7 +739,7 @@
                                     <div class="courses__item shine__animate-item">
                                         <div class="courses__item-thumb">
                                             <a href="course-details.html" class="shine__animate-link">
-                                                <img src="inst_assets//img/courses/course_thumb04.jpg" alt="img">
+                                                <img src="img/courses/course_thumb04.jpg" alt="img">
                                             </a>
                                         </div>
                                         <div class="courses__item-content">
@@ -807,7 +767,7 @@
                                     <div class="courses__item shine__animate-item">
                                         <div class="courses__item-thumb">
                                             <a href="course-details.html" class="shine__animate-link">
-                                                <img src="inst_assets//img/courses/course_thumb05.jpg" alt="img">
+                                                <img src="img/courses/course_thumb05.jpg" alt="img">
                                             </a>
                                         </div>
                                         <div class="courses__item-content">
@@ -835,7 +795,7 @@
                                     <div class="courses__item shine__animate-item">
                                         <div class="courses__item-thumb">
                                             <a href="course-details.html" class="shine__animate-link">
-                                                <img src="inst_assets//img/courses/course_thumb01.jpg" alt="img">
+                                                <img src="img/courses/course_thumb01.jpg" alt="img">
                                             </a>
                                         </div>
                                         <div class="courses__item-content">
@@ -863,7 +823,7 @@
                                     <div class="courses__item shine__animate-item">
                                         <div class="courses__item-thumb">
                                             <a href="course-details.html" class="shine__animate-link">
-                                                <img src="inst_assets//img/courses/course_thumb06.jpg" alt="img">
+                                                <img src="img/courses/course_thumb06.jpg" alt="img">
                                             </a>
                                         </div>
                                         <div class="courses__item-content">
@@ -901,7 +861,7 @@
                                     <div class="courses__item shine__animate-item">
                                         <div class="courses__item-thumb">
                                             <a href="course-details.html" class="shine__animate-link">
-                                                <img src="inst_assets//img/courses/course_thumb04.jpg" alt="img">
+                                                <img src="img/courses/course_thumb04.jpg" alt="img">
                                             </a>
                                         </div>
                                         <div class="courses__item-content">
@@ -929,7 +889,7 @@
                                     <div class="courses__item shine__animate-item">
                                         <div class="courses__item-thumb">
                                             <a href="course-details.html" class="shine__animate-link">
-                                                <img src="inst_assets//img/courses/course_thumb05.jpg" alt="img">
+                                                <img src="img/courses/course_thumb05.jpg" alt="img">
                                             </a>
                                         </div>
                                         <div class="courses__item-content">
@@ -957,7 +917,7 @@
                                     <div class="courses__item shine__animate-item">
                                         <div class="courses__item-thumb">
                                             <a href="course-details.html" class="shine__animate-link">
-                                                <img src="inst_assets//img/courses/course_thumb06.jpg" alt="img">
+                                                <img src="img/courses/course_thumb06.jpg" alt="img">
                                             </a>
                                         </div>
                                         <div class="courses__item-content">
@@ -985,7 +945,7 @@
                                     <div class="courses__item shine__animate-item">
                                         <div class="courses__item-thumb">
                                             <a href="course-details.html" class="shine__animate-link">
-                                                <img src="inst_assets//img/courses/course_thumb01.jpg" alt="img">
+                                                <img src="img/courses/course_thumb01.jpg" alt="img">
                                             </a>
                                         </div>
                                         <div class="courses__item-content">
@@ -1013,7 +973,7 @@
                                     <div class="courses__item shine__animate-item">
                                         <div class="courses__item-thumb">
                                             <a href="course-details.html" class="shine__animate-link">
-                                                <img src="inst_assets//img/courses/course_thumb02.jpg" alt="img">
+                                                <img src="img/courses/course_thumb02.jpg" alt="img">
                                             </a>
                                         </div>
                                         <div class="courses__item-content">
@@ -1041,7 +1001,7 @@
                                     <div class="courses__item shine__animate-item">
                                         <div class="courses__item-thumb">
                                             <a href="course-details.html" class="shine__animate-link">
-                                                <img src="inst_assets//img/courses/course_thumb03.jpg" alt="img">
+                                                <img src="img/courses/course_thumb03.jpg" alt="img">
                                             </a>
                                         </div>
                                         <div class="courses__item-content">
@@ -1083,9 +1043,9 @@
                 <div class="row align-items-center">
                     <div class="col-lg-4">
                         <div class="newsletter__img-wrap">
-                            <img src="inst_assets//img/others/newsletter_img.png" alt="img">
-                            <img src="inst_assets//img/others/newsletter_shape01.png" alt="img" data-aos="fade-up" data-aos-delay="400">
-                            <img src="inst_assets//img/others/newsletter_shape02.png" alt="img" class="alltuchtopdown">
+                            <img src="img/others/newsletter_img.png" alt="img">
+                            <img src="img/others/newsletter_shape01.png" alt="img" data-aos="fade-up" data-aos-delay="400">
+                            <img src="img/others/newsletter_shape02.png" alt="img" class="alltuchtopdown">
                         </div>
                     </div>
                     <div class="col-lg-8">
@@ -1102,7 +1062,7 @@
                 </div>
             </div>
             <div class="newsletter__shape">
-                <img src="inst_assets//img/others/newsletter_shape03.png" alt="img" data-aos="fade-left" data-aos-delay="400">
+                <img src="img/others/newsletter_shape03.png" alt="img" data-aos="fade-left" data-aos-delay="400">
             </div>
         </section>
         <!-- newsletter-area-end -->
@@ -1119,7 +1079,7 @@
                             </div>
                             <p>when an unknown printer took a galley of type and scrambled makespecimen book has survived not only five centuries</p>
                             <div class="tg-button-wrap">
-                                <a href="instructors.html" class="btn arrow-btn">See All Instructors <img src="inst_assets//img/icons/right_arrow.svg" alt="img" class="injectable"></a>
+                                <a href="instructors.html" class="btn arrow-btn">See All Instructors <img src="img/icons/right_arrow.svg" alt="img" class="injectable"></a>
                             </div>
                         </div>
                     </div>
@@ -1129,7 +1089,7 @@
                                 <div class="col-sm-6">
                                     <div class="instructor__item">
                                         <div class="instructor__thumb">
-                                            <a href="instructor-datails.html"><img src="inst_assets//img/instructor/instructor01.png" alt="img"></a>
+                                            <a href="instructor-datails.html"><img src="img/instructor/instructor01.png" alt="img"></a>
                                         </div>
                                         <div class="instructor__content">
                                             <h2 class="title"><a href="instructor-datails.html">Mark Jukarberg</a></h2>
@@ -1152,7 +1112,7 @@
                                 <div class="col-sm-6">
                                     <div class="instructor__item">
                                         <div class="instructor__thumb">
-                                            <a href="instructor-datails.html"><img src="inst_assets//img/instructor/instructor02.png" alt="img"></a>
+                                            <a href="instructor-datails.html"><img src="img/instructor/instructor02.png" alt="img"></a>
                                         </div>
                                         <div class="instructor__content">
                                             <h2 class="title"><a href="instructor-datails.html">Olivia Mia</a></h2>
@@ -1175,7 +1135,7 @@
                                 <div class="col-sm-6">
                                     <div class="instructor__item">
                                         <div class="instructor__thumb">
-                                            <a href="instructor-datails.html"><img src="inst_assets//img/instructor/instructor03.png" alt="img"></a>
+                                            <a href="instructor-datails.html"><img src="img/instructor/instructor03.png" alt="img"></a>
                                         </div>
                                         <div class="instructor__content">
                                             <h2 class="title"><a href="instructor-datails.html">William Hope</a></h2>
@@ -1198,7 +1158,7 @@
                                 <div class="col-sm-6">
                                     <div class="instructor__item">
                                         <div class="instructor__thumb">
-                                            <a href="instructor-datails.html"><img src="inst_assets//img/instructor/instructor04.png" alt="img"></a>
+                                            <a href="instructor-datails.html"><img src="img/instructor/instructor04.png" alt="img"></a>
                                         </div>
                                         <div class="instructor__content">
                                             <h2 class="title"><a href="instructor-datails.html">Sophia Ava</a></h2>
@@ -1273,12 +1233,12 @@
                                 </div>
                             </div>
                             <div class="faq__img">
-                                <img src="inst_assets//img/others/faq_img.png" alt="img">
+                                <img src="img/others/faq_img.png" alt="img">
                                 <div class="shape-one">
-                                    <img src="inst_assets//img/others/faq_shape01.svg" class="injectable tg-motion-effects4" alt="img">
+                                    <img src="img/others/faq_shape01.svg" class="injectable tg-motion-effects4" alt="img">
                                 </div>
                                 <div class="shape-two">
-                                    <span class="svg-icon" id="faq-svg" data-svg-icon="inst_assets//img/others/faq_shape02.svg"></span>
+                                    <span class="svg-icon" id="faq-svg" data-svg-icon="img/others/faq_shape02.svg"></span>
                                 </div>
                             </div>
                         </div>
@@ -1373,7 +1333,7 @@
                     <div class="col-xl-3 col-lg-4 col-md-6">
                         <div class="features__item">
                             <div class="features__icon">
-                                <img src="inst_assets//img/icons/features_icon01.svg" class="injectable" alt="img">
+                                <img src="img/icons/features_icon01.svg" class="injectable" alt="img">
                             </div>
                             <div class="features__content">
                                 <h4 class="title">Learn with Experts</h4>
@@ -1384,7 +1344,7 @@
                     <div class="col-xl-3 col-lg-4 col-md-6">
                         <div class="features__item">
                             <div class="features__icon">
-                                <img src="inst_assets//img/icons/features_icon02.svg" class="injectable" alt="img">
+                                <img src="img/icons/features_icon02.svg" class="injectable" alt="img">
                             </div>
                             <div class="features__content">
                                 <h4 class="title">Learn Anything</h4>
@@ -1395,7 +1355,7 @@
                     <div class="col-xl-3 col-lg-4 col-md-6">
                         <div class="features__item">
                             <div class="features__icon">
-                                <img src="inst_assets//img/icons/features_icon03.svg" class="injectable" alt="img">
+                                <img src="img/icons/features_icon03.svg" class="injectable" alt="img">
                             </div>
                             <div class="features__content">
                                 <h4 class="title">Get Online Certificate</h4>
@@ -1406,7 +1366,7 @@
                     <div class="col-xl-3 col-lg-4 col-md-6">
                         <div class="features__item">
                             <div class="features__icon">
-                                <img src="inst_assets//img/icons/features_icon04.svg" class="injectable" alt="img">
+                                <img src="img/icons/features_icon04.svg" class="injectable" alt="img">
                             </div>
                             <div class="features__content">
                                 <h4 class="title">E-mail Marketing</h4>
@@ -1427,19 +1387,19 @@
                         <div class="col-xl-6">
                             <div class="instructor__item-two tg-svg">
                                 <div class="instructor__thumb-two">
-                                    <img src="inst_assets//img/instructor/instructor_two01.png" alt="img">
+                                    <img src="img/instructor/instructor_two01.png" alt="img">
                                     <div class="shape-one">
-                                        <img src="inst_assets//img/instructor/instructor_shape01.svg" alt="img" class="injectable">
+                                        <img src="img/instructor/instructor_shape01.svg" alt="img" class="injectable">
                                     </div>
                                     <div class="shape-two">
-                                        <span class="svg-icon" id="instructor-svg" data-svg-icon="inst_assets//img/instructor/instructor_shape02.svg"></span>
+                                        <span class="svg-icon" id="instructor-svg" data-svg-icon="img/instructor/instructor_shape02.svg"></span>
                                     </div>
                                 </div>
                                 <div class="instructor__content-two">
                                     <h3 class="title"><a href="contact.html">Become a Instructor</a></h3>
                                     <p>To take a trivial example, which of us undertakes physical exercise yes is this happen here.</p>
                                     <div class="tg-button-wrap">
-                                        <a href="contact.html" class="btn arrow-btn">Apply Now <img src="inst_assets//img/icons/right_arrow.svg" alt="img" class="injectable"></a>
+                                        <a href="contact.html" class="btn arrow-btn">Apply Now <img src="img/icons/right_arrow.svg" alt="img" class="injectable"></a>
                                     </div>
                                 </div>
                             </div>
@@ -1447,19 +1407,19 @@
                         <div class="col-xl-6">
                             <div class="instructor__item-two tg-svg">
                                 <div class="instructor__thumb-two">
-                                    <img src="inst_assets//img/instructor/instructor_two02.png" alt="img">
+                                    <img src="img/instructor/instructor_two02.png" alt="img">
                                     <div class="shape-one">
-                                        <img src="inst_assets//img/instructor/instructor_shape01.svg" alt="img" class="injectable">
+                                        <img src="img/instructor/instructor_shape01.svg" alt="img" class="injectable">
                                     </div>
                                     <div class="shape-two">
-                                        <span class="svg-icon" id="instructor-svg-two" data-svg-icon="inst_assets//img/instructor/instructor_shape02.svg"></span>
+                                        <span class="svg-icon" id="instructor-svg-two" data-svg-icon="img/instructor/instructor_shape02.svg"></span>
                                     </div>
                                 </div>
                                 <div class="instructor__content-two">
                                     <h3 class="title"><a href="contact.html">Become a Student</a></h3>
                                     <p>Join millions of people from around the world learning together. Online learning.</p>
                                     <div class="tg-button-wrap">
-                                        <a href="contact.html" class="btn arrow-btn">Apply Now <img src="inst_assets//img/icons/right_arrow.svg" alt="img" class="injectable"></a>
+                                        <a href="contact.html" class="btn arrow-btn">Apply Now <img src="img/icons/right_arrow.svg" alt="img" class="injectable"></a>
                                     </div>
                                 </div>
                             </div>
@@ -1486,7 +1446,7 @@
                     <div class="col-xl-3 col-md-6">
                         <div class="blog__post-item shine__animate-item">
                             <div class="blog__post-thumb">
-                                <a href="blog-details.html" class="shine__animate-link"><img src="inst_assets//img/blog/blog_post01.jpg" alt="img"></a>
+                                <a href="blog-details.html" class="shine__animate-link"><img src="img/blog/blog_post01.jpg" alt="img"></a>
                                 <a href="blog.html" class="post-tag">Marketing</a>
                             </div>
                             <div class="blog__post-content">
@@ -1503,7 +1463,7 @@
                     <div class="col-xl-3 col-md-6">
                         <div class="blog__post-item shine__animate-item">
                             <div class="blog__post-thumb">
-                                <a href="blog-details.html" class="shine__animate-link"><img src="inst_assets//img/blog/blog_post02.jpg" alt="img"></a>
+                                <a href="blog-details.html" class="shine__animate-link"><img src="img/blog/blog_post02.jpg" alt="img"></a>
                                 <a href="blog.html" class="post-tag">Marketing</a>
                             </div>
                             <div class="blog__post-content">
@@ -1520,7 +1480,7 @@
                     <div class="col-xl-3 col-md-6">
                         <div class="blog__post-item shine__animate-item">
                             <div class="blog__post-thumb">
-                                <a href="blog-details.html" class="shine__animate-link"><img src="inst_assets//img/blog/blog_post03.jpg" alt="img"></a>
+                                <a href="blog-details.html" class="shine__animate-link"><img src="img/blog/blog_post03.jpg" alt="img"></a>
                                 <a href="blog.html" class="post-tag">Marketing</a>
                             </div>
                             <div class="blog__post-content">
@@ -1537,7 +1497,7 @@
                     <div class="col-xl-3 col-md-6">
                         <div class="blog__post-item shine__animate-item">
                             <div class="blog__post-thumb">
-                                <a href="blog-details.html" class="shine__animate-link"><img src="inst_assets//img/blog/blog_post04.jpg" alt="img"></a>
+                                <a href="blog-details.html" class="shine__animate-link"><img src="img/blog/blog_post04.jpg" alt="img"></a>
                                 <a href="blog.html" class="post-tag">Marketing</a>
                             </div>
                             <div class="blog__post-content">
