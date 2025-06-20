@@ -21,30 +21,6 @@ Hero START -->
 				</span>
 			</h1>
 
-			<!-- Button and info -->
-			<div class="d-flex gap-3 gap-sm-4 flex-wrap">
-				<!-- Button -->
-
-				<!-- Info -->
-				<div class="d-flex gap-2 align-items-center">
-					<ul class="avatar-group mb-0 align-items-center">
-						<li class="avatar">
-							<img class="avatar-img rounded-circle" src="com_assets/images/avatar/octacode_02.jpg" alt="avatar">
-						</li>
-						<li class="avatar">
-							<img class="avatar-img rounded-circle" src="com_assets/images/avatar/octacode_05.jpg" alt="avatar">
-						</li>
-						<li class="avatar">
-							<img class="avatar-img rounded-circle" src="com_assets/images/avatar/octacode_10.jpg" alt="avatar">
-						</li>
-						<li class="avatar">
-							<img class="avatar-img rounded-circle" src="com_assets/images/avatar/octacode_09.jpg" alt="avatar">
-						</li>
-					</ul>
-					<p class="heading-color mb-0">15K+ happy clients</p>
-				</div>
-			</div>
-
 		</div>
 	</div>
 </section>
@@ -196,7 +172,7 @@ institude START -->
 
         <!-- Buttons -->
         <div class="d-flex gap-3 flex-wrap">
-          <a href="#" target="_blank" class="btn btn-primary mb-0">
+          <a href="#" class="btn btn-primary mb-0">
             Visit Training Website
           </a>
         </div>
@@ -466,7 +442,7 @@ Testimonials START -->
 								</div> 
 								<div class="ms-3">
 									<p class="lead heading-color fw-semibold mb-0">Jacqueline Miller</p>
-									<small>Product designer</small>
+									<!-- <small>Product designer</small> -->
 								</div>
 							</div>
 						</div>
@@ -500,7 +476,7 @@ Testimonials START -->
 								</div> 
 								<div class="ms-3">
 									<p class="lead heading-color fw-semibold mb-0">Louis Ferguson</p>
-									<small>Web Developer</small>
+									<!-- <small>Web Developer</small> -->
 								</div>
 							</div>
 						</div>
@@ -534,7 +510,7 @@ Testimonials START -->
 								</div> 
 								<div class="ms-3">
 									<p class="lead heading-color fw-semibold mb-0">Emma Watson</p>
-									<small>UI/UX designer</small>
+									<!-- <small>UI/UX designer</small> -->
 								</div>
 							</div>
 						</div>
@@ -568,7 +544,7 @@ Testimonials START -->
 								</div> 
 								<div class="ms-3">
 									<p class="lead heading-color fw-semibold mb-0">Allen Smith</p>
-									<small>Manager</small>
+									<!-- <small>Manager</small> -->
 								</div>
 							</div>
 						</div>
@@ -602,7 +578,7 @@ Testimonials START -->
 								</div> 
 								<div class="ms-3">
 									<p class="lead heading-color fw-semibold mb-0">Emma Watson</p>
-									<small>UI/UX designer</small>
+									<!-- <small>UI/UX designer</small> -->
 								</div>
 							</div>
 						</div>

@@ -19140,7 +19140,7 @@ a.badge:hover {
 }
 @media (min-width: 1200px) {
   .navbar-expand-xl .navbar-brand .navbar-brand-item {
-    height: 40px;
+    height: 61px;
     display: block;
     width: auto;
   }
@@ -19220,7 +19220,7 @@ a.badge:hover {
     max-width: 100%;
   }
   .navbar-expand-xl .navbar-brand .navbar-brand-item {
-    height: 30px;
+    height: 61px;
   }
   .navbar-expand-xl .navbar-brand {
     padding: 20px 0;

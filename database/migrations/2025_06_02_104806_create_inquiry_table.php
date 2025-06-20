@@ -18,7 +18,7 @@ return new class extends Migration
             $table->string('number')->nullable();
             $table->string('sub')->nullable();
             $table->text('message')->nullable();
-            $table->enum('status',['pending','done'])->default('pending');
+            $table->enum('status',['pending','replied'])->default('pending');
             $table->dateTime('time')->nullable();
             $table->timestamps();
         });

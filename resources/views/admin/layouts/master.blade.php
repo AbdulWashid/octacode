@@ -76,6 +76,8 @@
     <!--end::Required Plugin(Bootstrap 5)--><!--begin::Required Plugin(AdminLTE)-->
     <script src="{{asset('admin_assets/js/adminlte.js')}}"></script>
     <!--end::Script-->
+    <script src="{{asset('admin_assets/js/jquery.min.js')}}"></script>
+    @stack('script')
   </body>
   <!--end::Body-->
 </html>

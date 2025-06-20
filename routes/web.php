@@ -6,31 +6,14 @@ use App\Http\Controllers\com\{
     contactController
 };
 
-
-
-
-
-
 Route::get('/',[homeController::class,'index']);
-
-
 Route::get('/contact',[contactController::class,'index'])->name('contactPage');
 Route::POST('contact-data',[contactController::class,'contactData'])->name('contactData');
+
 
 Route::get('projects',function(){
     return view('com.services-grid');
 });
 
-
-
-
-
-
-Route::get('admin',function(){
-    return view('admin.index');
-});
-Route::prefix('institude')->name('institude.')->group(function(){
-    Route::get('index',function(){
-        return view('inst.index');
-    })->name('index');
-});
+require __DIR__."/admin.php";
+require __DIR__."/institude.php";

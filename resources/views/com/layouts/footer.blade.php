@@ -1,14 +1,10 @@
 <footer class="bg-dark pt-8 pt-md-9 position-relative" data-bs-theme="dark">
 	<div class="container">
-		<div class="row g-4 justify-content-between">
+		<div class="row justify-content-between">
 			<!-- Widget 1 START -->
 			<div class="col-lg-4">
-				<!-- logo -->
-				<a class="me-0" href="{{URL('/')}}">
-					<img class="h-40px" src="com_assets/images/logo-light.svg" alt="logo">
-				</a>
 				<ul class="list-wrap">
-					<p>L-155, Indra Nagar, Indira Nagar, Neemuch (458441), M.P., India</p>
+					<p>L-155, Indra Nagar, Indira Nagar, <br> Neemuch (458441), M.P., India</p>
 					<p>+91 62643 55302</p>
 				</ul>
 			</div>
@@ -24,17 +20,17 @@
 						<ul class="list-inline mb-0">
 							<li  class="list-inline-item">
 								<a href="https://www.facebook.com/octacodes.technologu.3/" target="_blank">
-									<img src="inst_assets/img/icons/facebook.svg" alt="img" class="injectable">
+									<img src="institude/img/icons/facebook.svg" alt="img" class="injectable">
 								</a>
 							</li>
 							<li  class="list-inline-item">
 								<a href="https://wa.me/6264355302" target="_blank">
-									<img src="inst_assets/img/icons/whatsapp.svg" alt="img" class="injectable">
+									<img src="institude/img/icons/whatsapp.svg" alt="img" class="injectable">
 								</a>
 							</li>
 							<li  class="list-inline-item">
 								<a href="https://www.instagram.com/octacodes_technologies?igsh=MW9zbjJnenc2cTl6bw==" target="_blank">
-									<img src="inst_assets/img/icons/instagram.svg" alt="img" class="injectable">
+									<img src="institude/img/icons/instagram.svg" alt="img" class="injectable">
 								</a>
 							</li>
 						</ul>

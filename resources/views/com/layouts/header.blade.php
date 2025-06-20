@@ -1,4 +1,4 @@
-<div class="header-absolute">
+<div class="header-absolute bg-white">
 	<!-- Top header -->
 	<div class="alert fade show bg-primary border-0 rounded-0 text-center overflow-hidden z-index-9 py-2 m-0 d-none d-lg-block" role="alert">
 		<div class="container d-flex justify-content-between px-2 px-xl-4">
@@ -18,13 +18,13 @@
 	</div>
 		
 	<!-- Header START -->
-	<header class="header-sticky bg-transparent">
+	<header class="header-sticky">
 		<!-- Logo Nav START -->
 		<nav class="navbar navbar-expand-xl">
 			<div class="container">
 				<!-- Logo START -->
 				<a class="navbar-brand me-0 d-flex align-items-center" href="{{URL('/')}}">
-					<img class="light-mode-item navbar-brand-item" src="com_assets/images/octacode_logo.png" alt="logo">  <span class="fw-bold mx-2 text-center" style="font-family: 'Raleway', sans-serif;">Octacode Technologies</span> <!-- font-family: 'Poppins', sans-serif;font-weight: 700; -->
+					<img class="light-mode-item navbar-brand-item" src="com_assets/images/octacode_logo1.png" alt="logo">
 				</a>
 				<!-- Logo END -->
 
