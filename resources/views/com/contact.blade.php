@@ -6,7 +6,7 @@ Hero START -->
 <section class="bg-dark position-relative overflow-hidden pt-xl-8" data-bs-theme="dark">
 	<!-- Blur decoration -->
 	<div class="position-absolute bottom-0 end-0 mb-n9">
-		<img src="com_assets/images/elements/grad-shape/blur-decoration-2.svg" class="opacity-2 blur-9" alt="Grad shape">
+		<img src="com_assets/images/elements/grad-shape/blur-decoration-2.svg" class="opacity-2 blur-9" alt="octacodes_img">
 	</div>
 	
 	<div class="container position-relative pt-4 pt-sm-5">
@@ -164,7 +164,7 @@ Map and office detail START -->
 <section class="position-relative pt-0 overflow-hidden">
 	<!-- Decoration -->
 	<div class="position-absolute bottom-0 end-0 mb-n3 me-n7 d-none d-xl-block">
-		<img src="com_assets/images/elements/relex-slay.png" class="h-400px h-xxl-500px rtl-flip" alt="image">
+		<img src="com_assets/images/elements/relex-slay.png" class="h-400px h-xxl-500px rtl-flip" alt="octacodes_img">
 	 </div>
 
 	<div class="container">
@@ -186,13 +186,13 @@ Map and office detail START -->
 						<!-- Title and country image -->
 						<div class="d-flex align-items-center gap-2">
 							<div class="avatar avatar-xs flex-shrink-0">
-								<img class="avatar-img rounded-circle" src="com_assets/images/flags/in.svg" alt="avatar">
+								<img class="avatar-img rounded-circle" src="com_assets/images/flags/in.svg" alt="octacodes_img_octacode_img">
 							</div>
 							<h6 class="mb-0">India</h6>
 						</div>
 						<!-- List -->
 						 <ul class="mb-0 mt-3">
-							<li class="mb-2">L-155, Indra Nagar, Indira Nagar, Neemuch (458441), M.P., India</li>
+							<li class="mb-2">L, 155, Indira Nagar, Neemuch, Madhya Pradesh 458441</li>
 							<li class="mb-2">Call: +91 62643 55302</li>
 							<li class="mb-2">Support time: Monday to Saturday 10:00 am to 5:30 pm</li>
 						 </ul>

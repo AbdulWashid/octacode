@@ -5,22 +5,22 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <ul class="tg-header__top-info list-wrap">
-                            <li><img src="img/icons/map_marker.svg" alt="Icon"> <span>589 5th Ave, NY 10024, USA</span></li>
-                            <li><img src="img/icons/envelope.svg" alt="Icon"> <a href="mailto:info@skillgrodemo.com">info@skillgrodemo.com</a></li>
+                            <li><img src="{{ asset('institude/img/icons/envelope.svg') }}" alt="Icon" target="_blank">
+                                <a href="mailto:octacodetechnology@gmail.com">octacodetechnology@gmail.com</a>
+                            </li>
                         </ul>
                     </div>
                     <div class="col-lg-6">
                         <div class="tg-header__top-right">
                             <div class="tg-header__phone">
-                                <img src="img/icons/phone.svg" alt="Icon">Call us: <a href="tel:0123456789">+123 599 8989</a>
+                                Call us: <a href="tel:+91 6264355302">+91 62643 55302</a>
                             </div>
                             <ul class="tg-header__top-social list-wrap">
                                 <li>Follow Us On :</li>
-                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
-                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                <li><a href="https://www.facebook.com/octacodes.technologu.3/" target="_blank"><i
+                                            class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="https://www.instagram.com/octacodes_technologies?igsh=MW9zbjJnenc2cTl6bw=="
+                                        target="_blank"><i class="fab fa-instagram"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -35,9 +35,12 @@
                         <div class="tgmenu__wrap">
                             <nav class="tgmenu__nav">
                                 <div class="logo d-flex align-items-center">
-                                    <a href="index-2.html"><img src="com_assets/images/octacode_logo.png" alt="Logo"><span class="fw-bold mx-2 text-center text-dark" style="font-family:sans-serif;">Octacode Technologies</span></a>
+                                    <a href="{{ URL::TO('/') }}"><img
+                                            src="{{ asset('com_assets/images/octacode_logo.png') }}"
+                                            alt="Logo"><span class="fw-bold mx-2 text-center text-dark"
+                                            style="font-family:sans-serif;">Octacode Technologies</span></a>
                                 </div>
-                                <div class="tgmenu__navbar-wrap tgmenu__main-menu d-none d-xl-flex">
+                                {{-- <div class="tgmenu__navbar-wrap tgmenu__main-menu d-none d-xl-flex">
                                     <ul class="navigation">
                                         <li class="active menu-item-has-children"><a href="#">Home</a>
                                             <ul class="sub-menu mega-menu">
@@ -75,7 +78,7 @@
                                                 </li>
                                                 <li>
                                                     <div class="mega-menu-img">
-                                                        <a href="courses.html"><img src="img/others/mega_menu_img.jpg" alt="img"></a>
+                                                        <a href="courses.html"><img src="{{asset('institude/img/others/mega_menu_img.jpg')}}" alt="img"></a>
                                                     </div>
                                                 </li>
                                             </ul>
@@ -188,13 +191,13 @@
                                     <ul class="list-wrap">
                                         <li class="wishlist-icon">
                                             <a href="cart.html" class="cart-count">
-                                                <img src="img/icons/heart.svg" class="injectable" alt="img">
+                                                <img src="{{asset('institude/img/icons/heart.svg')}}" class="injectable" alt="img">
                                                 <span class="wishlist-count">0</span>
                                             </a>
                                         </li>
                                         <li class="mini-cart-icon">
                                             <a href="cart.html" class="cart-count">
-                                                <img src="img/icons/cart.svg" class="injectable" alt="img">
+                                                <img src="{{asset('institude/img/icons/cart.svg')}}" class="injectable" alt="img">
                                                 <span class="mini-cart-count">0</span>
                                             </a>
                                         </li>
@@ -204,17 +207,17 @@
                                     </ul>
                                 </div>
                                 <div class="mobile-login-btn">
-                                    <a href="login.html"><img src="img/icons/user.svg" alt="" class="injectable"></a>
+                                    <a href="login.html"><img src="{{asset('institude/img/icons/user.svg')}}" alt="" class="injectable"></a>
                                 </div>
-                                <div class="mobile-nav-toggler"><i class="tg-flaticon-menu-1"></i></div>
+                                <div class="mobile-nav-toggler"><i class="tg-flaticon-menu-1"></i></div> --}}
                             </nav>
                         </div>
                         <!-- Mobile Menu  -->
-                        <div class="tgmobile__menu">
+                        {{-- <div class="tgmobile__menu">
                             <nav class="tgmobile__menu-box">
                                 <div class="close-btn"><i class="tg-flaticon-close-1"></i></div>
                                 <div class="nav-logo">
-                                    <a href="index-2.html"><img src="img/logo/logo.svg" alt="Logo"></a>
+                                    <a href="index-2.html"><img src="{{asset('institude/img/logo/logo.svg')}}" alt="Logo"></a>
                                 </div>
                                 <div class="tgmobile__search">
                                     <form action="#">
@@ -236,14 +239,14 @@
                                 </div>
                             </nav>
                         </div>
-                        <div class="tgmobile__menu-backdrop"></div>
+                        <div class="tgmobile__menu-backdrop"></div> --}}
                         <!-- End Mobile Menu -->
                     </div>
                 </div>
             </div>
         </div>
     </header>
-        <style>
+    <style>
         .whatsapp-btn {
             filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.3));
             position: fixed;
@@ -251,7 +254,8 @@
             left: 12px;
             z-index: 100;
         }
-        .whatsapp-btn > i {
+
+        .whatsapp-btn>i {
             color: white;
             background-color: #25D366;
             padding: 12px;
@@ -266,7 +270,7 @@
         }
     </style>
 
-    <a href="https://wa.me/6264355302" target="_blank" title="Chat on WhatsApp" class="whatsapp-btn">
-    <i class="fab fa-whatsapp"></i>
+    <a href="https://wa.me/+916264355302" target="_blank" title="Chat on WhatsApp" class="whatsapp-btn">
+        <i class="fab fa-whatsapp"></i>
     </a>
     <!-- header-area-end -->

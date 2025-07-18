@@ -4,7 +4,7 @@
 			<!-- Widget 1 START -->
 			<div class="col-lg-4">
 				<ul class="list-wrap">
-					<p>L-155, Indra Nagar, Indira Nagar, <br> Neemuch (458441), M.P., India</p>
+					<p>L, 155, Indira Nagar, Neemuch, Madhya Pradesh 458441</p>
 					<p>+91 62643 55302</p>
 				</ul>
 			</div>
@@ -20,17 +20,17 @@
 						<ul class="list-inline mb-0">
 							<li  class="list-inline-item">
 								<a href="https://www.facebook.com/octacodes.technologu.3/" target="_blank">
-									<img src="institude/img/icons/facebook.svg" alt="img" class="injectable">
+									<img src="institude/img/icons/facebook.svg" alt="octacodes_img" class="injectable">
 								</a>
 							</li>
 							<li  class="list-inline-item">
 								<a href="https://wa.me/6264355302" target="_blank">
-									<img src="institude/img/icons/whatsapp.svg" alt="img" class="injectable">
+									<img src="institude/img/icons/whatsapp.svg" alt="octacodes_img" class="injectable">
 								</a>
 							</li>
 							<li  class="list-inline-item">
 								<a href="https://www.instagram.com/octacodes_technologies?igsh=MW9zbjJnenc2cTl6bw==" target="_blank">
-									<img src="institude/img/icons/instagram.svg" alt="img" class="injectable">
+									<img src="institude/img/icons/instagram.svg" alt="octacodes_img" class="injectable">
 								</a>
 							</li>
 						</ul>
@@ -46,8 +46,8 @@
 		<!-- Bottom footer -->
 		<div class="d-md-flex justify-content-between align-items-center text-center text-lg-start py-4">
 			<!-- copyright text -->
-			<div class="text-body small mb-3 mb-md-0"> © 2024-2025 Octacodetechnologies.com. All rights reserved.</div>
-			
+			<div class="text-body small mb-3 mb-md-0"> © 2024-2025 octacodes.com . All rights reserved.</div>
+
 			<!-- Policy link -->
 			<ul class="nav d-flex justify-content-center gap-1 mb-0">
 				<li class="nav-item"><a class="nav-link small py-0" href="#">Terms of Use</a></li>

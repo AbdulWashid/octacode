@@ -16,7 +16,7 @@
 			</ul>
 		</div>
 	</div>
-		
+
 	<!-- Header START -->
 	<header class="header-sticky">
 		<!-- Logo Nav START -->
@@ -35,9 +35,9 @@
 					<li class="nav-item ms-2 d-none d-sm-block">
 						<a href="#" class="btn btn-sm btn-dark mb-0" data-bs-toggle="offcanvas" data-bs-target="#scheduleCall" aria-controls="scheduleCall"><i class="bi bi-calendar-week me-2"></i>Schedule a call</a>
 					</li>
-					
+
 					<!-- Responsive navbar toggler -->
-					<li class="nav-item">
+					{{-- <li class="nav-item">
 						<button class="navbar-toggler ms-sm-3 p-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
 							<span class="navbar-toggler-animation">
 								<span></span>
@@ -45,11 +45,11 @@
 								<span></span>
 							</span>
 						</button>
-					</li>	
+					</li>	 --}}
 				</ul>
 			</div>
 		</nav>
 		<!-- Logo Nav END -->
 	</header>
 	<!-- Header END -->
-</div> 
+</div>

@@ -24,7 +24,7 @@
             <!--begin::Sidebar Menu-->
             <ul class="nav sidebar-menu flex-column" data-lte-toggle="treeview" role="menu" data-accordion="false">
               <li class="nav-item menu-open">
-                <a href="route('admin')" class="nav-link {{ request()->is('admin') ? '' : 'active' }}">
+                <a href="{{route('login')}}" class="nav-link {{ request()->is('admin') ? '' : 'active' }}">
                   <i class="nav-icon bi bi-speedometer"></i>
                   <p>
                     Dashboard

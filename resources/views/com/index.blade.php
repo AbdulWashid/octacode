@@ -8,7 +8,7 @@ Hero START -->
 <section class="position-relative pt-sm-8 pt-lg-9 pb-4">
 	<!-- Right side svg decoration -->
 	<div class="position-absolute top-0 end-0 z-index-2 d-none d-md-block rtl-flip">
-		<img src="com_assets/images/elements/grad-shape/octacode_07.png" alt="">
+		<img src="com_assets/images/elements/grad-shape/octacode_07.png" alt="octacodes_img_">
 	</div>
 
 	<div class="container pt-4">
@@ -40,7 +40,7 @@ Image and client START -->
 	<div class="container position-relative z-index-9">
 		<!-- Grad blur decoration -->
 		<div class="position-absolute top-0 start-50 translate-middle-x mt-n3">
-			<img src="com_assets/images/elements/grad-shape/octacode_blur-decoration-2.svg" class="opacity-2 blur-8" alt="Grad shape">
+			<img src="com_assets/images/elements/grad-shape/octacode_blur-decoration-2.svg" class="opacity-2 blur-8" alt="octacodes_img_Grad shape">
 		</div>
 
 		<!-- Image -->
@@ -60,7 +60,7 @@ Image and client START -->
 				<div class="col-sm-5">
 					<div class="card card-body p-0 h-100">
 						<!-- Image -->
-						<img src="com_assets/images/bg/octacode_02.jpg" alt="">
+						<img src="com_assets/images/bg/octacode_02.jpg" alt="octacodes_img_">
 
 						<!-- Actions -->
 						 <div class="card-img-overlay d-flex flex-column">
@@ -91,11 +91,11 @@ Image and client START -->
 
 		<!-- Client slider START -->
 		<div class="swiper mt-6 d-none d-sm-block" data-swiper-options='{
-			"slidesPerView": 1, 
+			"slidesPerView": 1,
 			"spaceBetween": 20,
-			"breakpoints": { 
-				"576": {"slidesPerView": 2}, 
-				"768": {"slidesPerView": 3}, 
+			"breakpoints": {
+				"576": {"slidesPerView": 2},
+				"768": {"slidesPerView": 3},
 				"1200": {"slidesPerView": 4},
 				"1400": {"slidesPerView": 4}
 			}}'>
@@ -105,32 +105,32 @@ Image and client START -->
 				<!-- Image -->
 				<div class="swiper-slide">
 					<div class="swap-logo">
-						<img src="com_assets/images/client/logo-gray/octacode_2.png" class="client-img" alt="client-img">
+						<img src="com_assets/images/client/logo-gray/octacode_2.png" class="client-img" alt="octacodes_img_client-img">
 					</div>
 				</div>
 				<div class="swiper-slide">
 					<div class="swap-logo">
-						<img src="com_assets/images/client/logo-gray/octacode_3.png" class="client-img" alt="client-img">
+						<img src="com_assets/images/client/logo-gray/octacode_3.png" class="client-img" alt="octacodes_img_client-img">
 					</div>
 				</div>
 				<div class="swiper-slide">
 					<div class="swap-logo">
-						<img src="com_assets/images/client/logo-gray/octacode_4.png" class="client-img" alt="client-img">
+						<img src="com_assets/images/client/logo-gray/octacode_4.png" class="client-img" alt="octacodes_img_client-img">
 					</div>
 				</div>
 				<div class="swiper-slide">
 					<div class="swap-logo">
-						<img src="com_assets/images/client/logo-gray/octacode_5.png" class="client-img" alt="client-img">
+						<img src="com_assets/images/client/logo-gray/octacode_5.png" class="client-img" alt="octacodes_img_client-img">
 					</div>
 				</div>
 				<div class="swiper-slide">
 					<div class="swap-logo">
-						<img src="com_assets/images/client/logo-gray/octacode_6.png" class="client-img" alt="client-img">
+						<img src="com_assets/images/client/logo-gray/octacode_6.png" class="client-img" alt="octacodes_img_client-img">
 					</div>
 				</div>
 				<div class="swiper-slide">
 					<div class="swap-logo">
-						<img src="com_assets/images/client/logo-gray/octacode_7.png" class="client-img" alt="client-img">
+						<img src="com_assets/images/client/logo-gray/octacode_7.png" class="client-img" alt="octacodes_img_client-img">
 					</div>
 				</div>
 			</div>
@@ -172,7 +172,7 @@ institude START -->
 
         <!-- Buttons -->
         <div class="d-flex gap-3 flex-wrap">
-          <a href="#" class="btn btn-primary mb-0">
+          <a href="{{route('institude.index')}}" class="btn btn-primary mb-0">
             Visit Training Website
           </a>
         </div>
@@ -181,11 +181,11 @@ institude START -->
       <!-- Image -->
       <div class="col-lg-6 position-relative ms-auto ps-lg-4">
         <div class="position-absolute top-50 start-0 translate-middle-y ms-n4 mt-n7">
-          <img src="com_assets/images/elements/grad-shape/octacode_blur-decoration.svg" class="blur-7 opacity-1" alt="Grad shape">
+          <img src="com_assets/images/elements/grad-shape/octacode_blur-decoration.svg" class="blur-7 opacity-1" alt="octacodes_img_Grad shape">
         </div>
 
         <!-- Main image -->
-        <img src="com_assets/images/about/octacode_04.jpg" class="rounded-4 position-relative z-index-2" alt="IT Training">
+        <img src="com_assets/images/about/octacode_04.jpg" class="rounded-4 position-relative z-index-2" alt="octacodes_img_IT Training">
       </div>
 
     </div>
@@ -201,7 +201,7 @@ institude START -->
 
 		<!-- Slider items -->
 		<div class="swiper-wrapper align-items-center">
-			
+
 			<!-- Slide 1 -->
 			<div class="swiper-slide">
 				<div class="row mt-5">
@@ -363,7 +363,7 @@ Services START -->
 			<!-- button -->
 			<div class="col-sm-6 col-lg-4 mb-4">
 				<div class="d-flex flex-column justify-content-center align-items-center text-center h-100">
-					<img src="com_assets/images/elements/emoji.png" class="mb-3" alt="">
+					<img src="com_assets/images/elements/emoji.png" class="mb-3" alt="octacodes_img_">
 					<p>Not satisfied yet?</p>
 					<a href="#" class="btn btn-primary-grad mb-0">Explore all services</a>
 				</div>
@@ -381,7 +381,7 @@ Testimonials START -->
 <section class="bg-body position-relative pt-0 pb-5 pb-sm-0">
 	<!-- Right side svg decoration -->
 	<div class="position-absolute top-100 start-0 translate-middle z-index-2 ms-5 ms-xl-9 mt-5 d-none d-sm-block">
-		<img src="com_assets/images/elements/grad-shape/octacode_10.png" class="h-500px h-xl-700px rtl-flip" alt="">
+		<img src="com_assets/images/elements/grad-shape/octacode_10.png" class="h-500px h-xl-700px rtl-flip" alt="octacodes_img_">
 	</div>
 
 	<div class="container position-relative z-index-9">
@@ -405,8 +405,8 @@ Testimonials START -->
 		data-swiper-options='{
 				"spaceBetween": 30,
 				"breakpoints": {
-					"576": {"slidesPerView": 1}, 
-					"768": {"slidesPerView": 2}, 
+					"576": {"slidesPerView": 1},
+					"768": {"slidesPerView": 2},
 					"992": {"slidesPerView": 3}
 				},
 				"navigation":{
@@ -431,15 +431,15 @@ Testimonials START -->
 							<!-- Testimonials text -->
 							<blockquote>
 								<p class="heading-color mb-0">Their team went above and beyond to understand our needs and deliver a solution that exceeded our expectations. They demonstrated throughout the process was truly impressive.</p>
-							</blockquote>	
+							</blockquote>
 						</div>
 						<!-- Card footer -->
 						<div class="card-footer bg-transparent p-0">
 							<!-- Testimonials info -->
 							<div class="d-flex align-items-center">
 								<div class="avatar flex-shrink-0">
-									<img class="avatar-img rounded-circle" src="com_assets/images/avatar/octacode_09.jpg" alt="avatar">
-								</div> 
+									<img class="avatar-img rounded-circle" src="com_assets/images/avatar/octacode_09.jpg" alt="octacodes_img_avatar">
+								</div>
 								<div class="ms-3">
 									<p class="lead heading-color fw-semibold mb-0">Jacqueline Miller</p>
 									<!-- <small>Product designer</small> -->
@@ -465,15 +465,15 @@ Testimonials START -->
 							<!-- Testimonials text -->
 							<blockquote>
 								<p class="heading-color mb-0">Frequently partiality possession resolution at or appearance unaffected me. Ye goodness felicity do disposal dwelling no.</p>
-							</blockquote>	
+							</blockquote>
 						</div>
 						<!-- Card footer -->
 						<div class="card-footer bg-transparent p-0">
 							<!-- Testimonials info -->
 							<div class="d-flex align-items-center">
 								<div class="avatar flex-shrink-0">
-									<img class="avatar-img rounded-circle" src="com_assets/images/avatar/octacode_10.jpg" alt="avatar">
-								</div> 
+									<img class="avatar-img rounded-circle" src="com_assets/images/avatar/octacode_10.jpg" alt="octacodes_img_avatar">
+								</div>
 								<div class="ms-3">
 									<p class="lead heading-color fw-semibold mb-0">Louis Ferguson</p>
 									<!-- <small>Web Developer</small> -->
@@ -482,7 +482,7 @@ Testimonials START -->
 						</div>
 					</div>
 				</div>
-		
+
 				<!-- Testimonials item -->
 				<div class="swiper-slide">
 					<div class="card bg-secondary bg-opacity-50 bg-blur rounded-4 p-4 h-100">
@@ -499,15 +499,15 @@ Testimonials START -->
 							<!-- Testimonials text -->
 							<blockquote>
 								<p class="heading-color mb-0">Was out laughter raptures returned outweigh. Luckily cheered colonel I do we attack highest enabled. Tried law yet style child. The bore of true of no be deal.</p>
-							</blockquote>	
+							</blockquote>
 						</div>
 						<!-- Card footer -->
 						<div class="card-footer bg-transparent p-0">
 							<!-- Testimonials info -->
 							<div class="d-flex align-items-center">
 								<div class="avatar flex-shrink-0">
-									<img class="avatar-img rounded-circle" src="com_assets/images/avatar/octacode_04.jpg" alt="avatar">
-								</div> 
+									<img class="avatar-img rounded-circle" src="com_assets/images/avatar/octacode_04.jpg" alt="octacodes_img_avatar">
+								</div>
 								<div class="ms-3">
 									<p class="lead heading-color fw-semibold mb-0">Emma Watson</p>
 									<!-- <small>UI/UX designer</small> -->
@@ -533,15 +533,15 @@ Testimonials START -->
 							<!-- Testimonials text -->
 							<blockquote>
 								<p class="heading-color mb-0">Our passion for customer excellence is just one reason why we are the market leader. We've always worked very hard to give our customers the best experience.</p>
-							</blockquote>	
+							</blockquote>
 						</div>
 						<!-- Card footer -->
 						<div class="card-footer bg-transparent p-0">
 							<!-- Testimonials info -->
 							<div class="d-flex align-items-center">
 								<div class="avatar flex-shrink-0">
-									<img class="avatar-img rounded-circle" src="com_assets/images/avatar/octacode_07.jpg" alt="avatar">
-								</div> 
+									<img class="avatar-img rounded-circle" src="com_assets/images/avatar/octacode_07.jpg" alt="octacodes_img_avatar">
+								</div>
 								<div class="ms-3">
 									<p class="lead heading-color fw-semibold mb-0">Allen Smith</p>
 									<!-- <small>Manager</small> -->
@@ -567,15 +567,15 @@ Testimonials START -->
 							<!-- Testimonials text -->
 							<blockquote>
 								<p class="heading-color mb-0">Was out laughter raptures returned outweigh. Luckily cheered colonel I do we attack highest enabled. Tried law yet style child. The bore of true of no be deal.</p>
-							</blockquote>	
+							</blockquote>
 						</div>
 						<!-- Card footer -->
 						<div class="card-footer bg-transparent p-0">
 							<!-- Testimonials info -->
 							<div class="d-flex align-items-center">
 								<div class="avatar flex-shrink-0">
-									<img class="avatar-img rounded-circle" src="com_assets/images/avatar/octacode_01.jpg" alt="avatar">
-								</div> 
+									<img class="avatar-img rounded-circle" src="com_assets/images/avatar/octacode_01.jpg" alt="octacodes_img_avatar">
+								</div>
 								<div class="ms-3">
 									<p class="lead heading-color fw-semibold mb-0">Emma Watson</p>
 									<!-- <small>UI/UX designer</small> -->
@@ -604,7 +604,7 @@ CTA START -->
 
 					<!-- Rocket image -->
 					<div class="position-absolute top-0 end-0 me-n6 mb-n5 d-none d-sm-block">
-						<img src="com_assets/images/elements/octacode_rocket-02.png" alt="rocket image">
+						<img src="com_assets/images/elements/octacode_rocket-02.png" alt="octacodes_img_rocket image">
 					</div>
 
 					<!-- Content -->
@@ -630,7 +630,7 @@ CTA START -->
 				<div class="card bg-primary-grad h-100 overflow-hidden">
 					<!-- Image -->
 					<div class="position-absolute end-0 top-0 me-n8 d-none d-sm-block">
-						<img src="com_assets/images/elements/octacode_person-laptop.png" alt="">
+						<img src="com_assets/images/elements/octacode_person-laptop.png" alt="octacodes_img_">
 					</div>
 
 					<div class="row align-items-center p-3 p-sm-4">

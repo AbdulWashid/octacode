@@ -14,34 +14,34 @@
       <!-- Open Graph / Facebook -->
       <meta property="og:title" content="Octacode Technology | Laravel Training & Software Development Institute">
       <meta property="og:description" content="Join Octacode Technology – trusted software company and Laravel training institute. Get hands-on experience in modern web development.">
-      <meta property="og:image" content="com_assets/images/octacode_logo.ico">
+      <meta property="og:image" content="{{asset('com_assets/images/octacode_logo.ico')}}">
       <meta property="og:url" content="{{ url()->current() }}">
       <meta property="og:type" content="website">
 
       <!-- Twitter Meta Tags -->
       <meta name="twitter:title" content="Octacode Technology | Laravel Training & Software Development">
       <meta name="twitter:description" content="Top Laravel training and software development services in Neemuch. Learn and build real-world web applications with Octacode Technology.">
-      <meta name="twitter:image" content="com_assets/images/octacode_logo.ico">
+      <meta name="twitter:image" content="{{asset('com_assets/images/octacode_logo.ico')}}">
       <meta name="twitter:card" content="summary_large_image">
-      <link rel="shortcut icon" href="com_assets/images/octacode_logo.ico" type="image/png">
+      <link rel="shortcut icon" href="{{asset('com_assets/images/octacode_logo.ico')}}" type="image/png">
 
     <!--end::Primary Meta Tags-->
     <!-- CSS here -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/animate.min.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
-    <link rel="stylesheet" href="css/fontawesome-all.min.css">
-    <link rel="stylesheet" href="css/flaticon-skillgro.css">
-    <link rel="stylesheet" href="css/flaticon-skillgro-new.css">
-    <link rel="stylesheet" href="css/swiper-bundle.min.css">
-    <link rel="stylesheet" href="css/default-icons.css">
-    <link rel="stylesheet" href="css/select2.min.css">
-    <link rel="stylesheet" href="css/odometer.css">
-    <link rel="stylesheet" href="css/aos.css">
-    <link rel="stylesheet" href="css/plyr.css">
-    <link rel="stylesheet" href="css/spacing.css">
-    <link rel="stylesheet" href="css/tg-cursor.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="{{asset('institude/css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{asset('institude/css/animate.min.css')}}">
+    <link rel="stylesheet" href="{{asset('institude/css/magnific-popup.css')}}">
+    <link rel="stylesheet" href="{{asset('institude/css/fontawesome-all.min.css')}}">
+    <link rel="stylesheet" href="{{asset('institude/css/flaticon-skillgro.css')}}">
+    <link rel="stylesheet" href="{{asset('institude/css/flaticon-skillgro-new.css')}}">
+    <link rel="stylesheet" href="{{asset('institude/css/swiper-bundle.min.css')}}">
+    <link rel="stylesheet" href="{{asset('institude/css/default-icons.css')}}">
+    <link rel="stylesheet" href="{{asset('institude/css/select2.min.css')}}">
+    <link rel="stylesheet" href="{{asset('institude/css/odometer.css')}}">
+    <link rel="stylesheet" href="{{asset('institude/css/aos.css')}}">
+    <link rel="stylesheet" href="{{asset('institude/css/plyr.css')}}">
+    <link rel="stylesheet" href="{{asset('institude/css/spacing.css')}}">
+    <link rel="stylesheet" href="{{asset('institude/css/tg-cursor.css')}}">
+    <link rel="stylesheet" href="{{asset('institude/css/main.css')}}">
 </head>
 
 <body>
@@ -50,7 +50,7 @@
     <div id="preloader">
         <div id="loader" class="loader">
             <div class="loader-container">
-                <div class="loader-icon"><img src="img/logo/preloader.svg" alt="Preloader"></div>
+                <div class="loader-icon"><img src="{{asset('com_assets/images/octacode_logo.svg')}}" alt="Preloader"></div>
             </div>
         </div>
     </div>
@@ -69,29 +69,29 @@
 
 
     <!-- JS here -->
-    <script src="js/vendor/jquery-3.6.0.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/imagesloaded.pkgd.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/jquery.odometer.min.js"></script>
-    <script src="js/jquery.appear.js"></script>
-    <script src="js/tween-max.min.js"></script>
-    <script src="js/select2.min.js"></script>
-    <script src="js/swiper-bundle.min.js"></script>
-    <script src="js/jquery.marquee.min.js"></script>
-    <script src="js/tg-cursor.min.js"></script>
-    <script src="js/vivus.min.js"></script>
-    <script src="js/ajax-form.js"></script>
-    <script src="js/svg-inject.min.js"></script>
-    <script src="js/jquery.circleType.js"></script>
-    <script src="js/jquery.lettering.min.js"></script>
-    <script src="js/plyr.min.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/aos.js"></script>
-    <script src="js/main.js"></script>
-    <script>
+    <script src="{{asset('institude/js/vendor/jquery-3.6.0.min.js')}}"></script>
+    <script src="{{asset('institude/js/bootstrap.min.js')}}"></script>
+    <script src="{{asset('institude/js/imagesloaded.pkgd.min.js')}}"></script>
+    <script src="{{asset('institude/js/jquery.magnific-popup.min.js')}}"></script>
+    <script src="{{asset('institude/js/jquery.odometer.min.js')}}"></script>
+    <script src="{{asset('institude/js/jquery.appear.js')}}"></script>
+    <script src="{{asset('institude/js/tween-max.min.js')}}"></script>
+    <script src="{{asset('institude/js/select2.min.js')}}"></script>
+    <script src="{{asset('institude/js/swiper-bundle.min.js')}}"></script>
+    <script src="{{asset('institude/js/jquery.marquee.min.js')}}"></script>
+    <script src="{{asset('institude/js/tg-cursor.min.js')}}"></script>
+    <script src="{{asset('institude/js/vivus.min.js')}}"></script>
+    <script src="{{asset('institude/js/ajax-form.js')}}"></script>
+    <script src="{{asset('institude/js/svg-inject.min.js')}}"></script>
+    <script src="{{asset('institude/js/jquery.circleType.js')}}"></script>
+    <script src="{{asset('institude/js/jquery.lettering.min.js')}}"></script>
+    <script src="{{asset('institude/js/plyr.min.js')}}"></script>
+    <script src="{{asset('institude/js/wow.min.js')}}"></script>
+    <script src="{{asset('institude/js/aos.js')}}"></script>
+    <script src="{{asset('institude/js/main.js')}}"></script>
+    {{-- <script>
         SVGInject(document.querySelectorAll("img.injectable"));
-    </script>
+    </script> --}}
 </body>
 
 

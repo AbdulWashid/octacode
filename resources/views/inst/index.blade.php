@@ -12,17 +12,23 @@
                             <h3 class="title tg-svg" data-aos="fade-right" data-aos-delay="400">
                                 Never Stop
                                 <span class="position-relative">
-                                    <span class="svg-icon" id="banner-svg" data-svg-icon="img/objects/title_shape.svg"></span>
-                                    <svg x="0px" y="0px" preserveAspectRatio="none" viewBox="0 0 209 59" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M4.74438 7.70565C69.7006 -1.18799 136.097 -2.38304 203.934 4.1205C207.178 4.48495 209.422 7.14626 208.933 10.0534C206.793 23.6481 205.415 36.5704 204.801 48.8204C204.756 51.3291 202.246 53.5582 199.213 53.7955C136.093 59.7623 74.1922 60.5985 13.5091 56.3043C10.5653 56.0924 7.84371 53.7277 7.42158 51.0325C5.20725 38.2627 2.76333 25.6511 0.0898448 13.1978C-0.465589 10.5873 1.61173 8.1379 4.73327 7.70565" fill="currentcolor" />
+                                    <span class="svg-icon" id="banner-svg"
+                                        data-svg-icon="img/objects/title_shape.svg"></span>
+                                    <svg x="0px" y="0px" preserveAspectRatio="none" viewBox="0 0 209 59" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M4.74438 7.70565C69.7006 -1.18799 136.097 -2.38304 203.934 4.1205C207.178 4.48495 209.422 7.14626 208.933 10.0534C206.793 23.6481 205.415 36.5704 204.801 48.8204C204.756 51.3291 202.246 53.5582 199.213 53.7955C136.093 59.7623 74.1922 60.5985 13.5091 56.3043C10.5653 56.0924 7.84371 53.7277 7.42158 51.0325C5.20725 38.2627 2.76333 25.6511 0.0898448 13.1978C-0.465589 10.5873 1.61173 8.1379 4.73327 7.70565"
+                                            fill="currentcolor" />
                                     </svg>
                                     Learning
                                 </span>
                                 <br>Life <b>Never Stop</b> Teaching
                             </h3>
-                            <p data-aos="fade-right" data-aos-delay="600">Every teaching and learning journey is unique Following We'll help guide your way.</p>
+                            <p data-aos="fade-right" data-aos-delay="600">Every teaching and learning journey is unique
+                                Following We'll help guide your way.</p>
                             <div class="banner__btn-wrap" data-aos="fade-right" data-aos-delay="800">
-                                <a href="contact.html" class="btn arrow-btn">Start Free Trial <img src="img/icons/right_arrow.svg" alt="img" class="injectable"></a>
+                                <a href="{{ route('contactPage') }}" class="btn arrow-btn">Book Free Trial <img
+                                        src="img/icons/right_arrow.svg" alt="img" class="injectable"></a>
                             </div>
                         </div>
                     </div>
@@ -33,8 +39,9 @@
                                 <img src="img/banner/banner_shape01.png" alt="shape" class="tg-motion-effects1">
                             </div>
                             <img src="img/banner/bg_dots.svg" alt="shape" class="shape bg-dots rotateme">
-                            <img src="img/banner/banner_shape02.png" alt="shape" class="shape small-shape tg-motion-effects3">
-                            <div class="banner__author">
+                            <img src="img/banner/banner_shape02.png" alt="shape"
+                                class="shape small-shape tg-motion-effects3">
+                            {{-- <div class="banner__author">
                                 <div class="banner__author-item">
                                     <div class="image">
                                         <img src="img/banner/banner_author01.png" alt="img">
@@ -48,12 +55,13 @@
                                     <h6 class="name">Michel Jones</h6>
                                 </div>
                                 <img src="img/banner/banner_shape02.svg" alt="shape" class="arrow-shape tg-motion-effects3">
-                            </div>
+                            </div> --}}
                         </div>
                     </div>
                 </div>
             </div>
-            <img src="img/banner/banner_shape01.svg" alt="shape" class="line-shape" data-aos="fade-right" data-aos-delay="1600">
+            <img src="img/banner/banner_shape01.svg" alt="shape" class="line-shape" data-aos="fade-right"
+                data-aos-delay="1600">
         </section>
         <!-- banner-area-end -->
 
@@ -76,7 +84,7 @@
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide">
                                         <div class="categories__item">
-                                            <a href="courses.html">
+                                            <a href="#">
                                                 <div class="icon">
                                                     <i class="flaticon-graphic-design"></i>
                                                 </div>
@@ -87,7 +95,7 @@
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="categories__item">
-                                            <a href="courses.html">
+                                            <a href="#">
                                                 <div class="icon">
                                                     <i class="flaticon-investment"></i>
                                                 </div>
@@ -98,7 +106,7 @@
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="categories__item">
-                                            <a href="courses.html">
+                                            <a href="#">
                                                 <div class="icon">
                                                     <i class="flaticon-coding"></i>
                                                 </div>
@@ -109,7 +117,7 @@
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="categories__item">
-                                            <a href="courses.html">
+                                            <a href="#">
                                                 <div class="icon">
                                                     <i class="flaticon-email"></i>
                                                 </div>
@@ -120,7 +128,7 @@
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="categories__item">
-                                            <a href="courses.html">
+                                            <a href="#">
                                                 <div class="icon">
                                                     <i class="flaticon-fashion"></i>
                                                 </div>
@@ -131,7 +139,7 @@
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="categories__item">
-                                            <a href="courses.html">
+                                            <a href="#">
                                                 <div class="icon">
                                                     <i class="flaticon-interaction"></i>
                                                 </div>
@@ -142,7 +150,7 @@
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="categories__item">
-                                            <a href="courses.html">
+                                            <a href="#">
                                                 <div class="icon">
                                                     <i class="flaticon-web-design"></i>
                                                 </div>
@@ -155,13 +163,17 @@
                             </div>
                             <div class="categories__nav">
                                 <button class="categories-button-prev">
-                                    <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M15 7L1 7M1 7L7 1M1 7L7 13" stroke="#161439" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                    <svg width="16" height="14" viewBox="0 0 16 14" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M15 7L1 7M1 7L7 1M1 7L7 13" stroke="#161439" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" />
                                     </svg>
                                 </button>
                                 <button class="categories-button-next">
-                                    <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M1 7L15 7M15 7L9 1M15 7L9 13" stroke="#161439" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                    <svg width="16" height="14" viewBox="0 0 16 14" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 7L15 7M15 7L9 1M15 7L9 13" stroke="#161439" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" />
                                     </svg>
                                 </button>
                             </div>
@@ -173,7 +185,7 @@
         <!-- categories-area-end -->
 
         <!-- brand-area -->
-        <div class="brand-area">
+        {{-- <div class="brand-area">
             <div class="container-fluid">
                 <div class="marquee_mode">
                     <div class="brand__item">
@@ -214,26 +226,29 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
         <!-- brand-area-end -->
 
         <!-- about-area -->
-        <section class="about-area tg-motion-effects section-py-120">
+        <section class="about-area tg-motion-effects pb-60">
             <div class="container">
                 <div class="row align-items-center justify-content-center">
                     <div class="col-lg-6 col-md-9">
                         <div class="about__images">
                             <img src="img/others/about_img.png" alt="img" class="main-img">
                             <img src="img/others/about_shape.svg" alt="img" class="shape alltuchtopdown">
-                            <a href="https://www.youtube.com/watch?v=b2Az7_lLh3g" class="popup-video">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="28" viewBox="0 0 22 28" fill="none">
-                                    <path d="M0.19043 26.3132V1.69421C0.190288 1.40603 0.245303 1.12259 0.350273 0.870694C0.455242 0.6188 0.606687 0.406797 0.79027 0.254768C0.973854 0.10274 1.1835 0.0157243 1.39936 0.00193865C1.61521 -0.011847 1.83014 0.0480663 2.02378 0.176003L20.4856 12.3292C20.6973 12.4694 20.8754 12.6856 20.9999 12.9535C21.1245 13.2214 21.1904 13.5304 21.1904 13.8456C21.1904 14.1608 21.1245 14.4697 20.9999 14.7376C20.8754 15.0055 20.6973 15.2217 20.4856 15.3619L2.02378 27.824C1.83056 27.9517 1.61615 28.0116 1.40076 27.9981C1.18536 27.9847 0.97607 27.8983 0.792638 27.7472C0.609205 27.596 0.457661 27.385 0.352299 27.1342C0.246938 26.8833 0.191236 26.6008 0.19043 26.3132Z" fill="currentcolor" />
+                            <a href="" class="popup-video">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="28"
+                                    viewBox="0 0 22 28" fill="none">
+                                    <path
+                                        d="M0.19043 26.3132V1.69421C0.190288 1.40603 0.245303 1.12259 0.350273 0.870694C0.455242 0.6188 0.606687 0.406797 0.79027 0.254768C0.973854 0.10274 1.1835 0.0157243 1.39936 0.00193865C1.61521 -0.011847 1.83014 0.0480663 2.02378 0.176003L20.4856 12.3292C20.6973 12.4694 20.8754 12.6856 20.9999 12.9535C21.1245 13.2214 21.1904 13.5304 21.1904 13.8456C21.1904 14.1608 21.1245 14.4697 20.9999 14.7376C20.8754 15.0055 20.6973 15.2217 20.4856 15.3619L2.02378 27.824C1.83056 27.9517 1.61615 28.0116 1.40076 27.9981C1.18536 27.9847 0.97607 27.8983 0.792638 27.7472C0.609205 27.596 0.457661 27.385 0.352299 27.1342C0.246938 26.8833 0.191236 26.6008 0.19043 26.3132Z"
+                                        fill="currentcolor" />
                                 </svg>
                             </a>
-                            <div class="about__enrolled" data-aos="fade-right" data-aos-delay="200">
+                            {{-- <div class="about__enrolled" data-aos="fade-right" data-aos-delay="200">
                                 <p class="title"><span>36K+</span> Enrolled Students</p>
                                 <img src="img/others/student_grp.png" alt="img">
-                            </div>
+                            </div> --}}
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -243,8 +258,11 @@
                                 <h2 class="title">
                                     Thousand Of Top
                                     <span class="position-relative">
-                                        <svg x="0px" y="0px" preserveAspectRatio="none" viewBox="0 0 209 59" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M4.74438 7.70565C69.7006 -1.18799 136.097 -2.38304 203.934 4.1205C207.178 4.48495 209.422 7.14626 208.933 10.0534C206.793 23.6481 205.415 36.5704 204.801 48.8204C204.756 51.3291 202.246 53.5582 199.213 53.7955C136.093 59.7623 74.1922 60.5985 13.5091 56.3043C10.5653 56.0924 7.84371 53.7277 7.42158 51.0325C5.20725 38.2627 2.76333 25.6511 0.0898448 13.1978C-0.465589 10.5873 1.61173 8.1379 4.73327 7.70565" fill="currentcolor" />
+                                        <svg x="0px" y="0px" preserveAspectRatio="none" viewBox="0 0 209 59"
+                                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M4.74438 7.70565C69.7006 -1.18799 136.097 -2.38304 203.934 4.1205C207.178 4.48495 209.422 7.14626 208.933 10.0534C206.793 23.6481 205.415 36.5704 204.801 48.8204C204.756 51.3291 202.246 53.5582 199.213 53.7955C136.093 59.7623 74.1922 60.5985 13.5091 56.3043C10.5653 56.0924 7.84371 53.7277 7.42158 51.0325C5.20725 38.2627 2.76333 25.6511 0.0898448 13.1978C-0.465589 10.5873 1.61173 8.1379 4.73327 7.70565"
+                                                fill="currentcolor" />
                                         </svg>
                                         Courses
                                     </span>
@@ -252,7 +270,8 @@
                                 </h2>
                             </div>
                             <p class="desc">Groove’s intuitive shared inbox makes it easy for team members to
-                            organize, prioritize and.In this episode of the Smashing Pod we’re talking about Web Platform Baseline.</p>
+                                organize, prioritize and.In this episode of the Smashing Pod we’re talking about Web
+                                Platform Baseline.</p>
                             <ul class="about__info-list list-wrap">
                                 <li class="about__info-list-item">
                                     <i class="flaticon-angle-right"></i>
@@ -268,7 +287,8 @@
                                 </li>
                             </ul>
                             <div class="tg-button-wrap">
-                                <a href="about-us.html" class="btn arrow-btn">Start Free Trial <img src="img/icons/right_arrow.svg" alt="img" class="injectable"></a>
+                                <a href="{{ route('contactPage') }}" class="btn arrow-btn">Start Free Trial <img
+                                        src="img/icons/right_arrow.svg" alt="img" class="injectable"></a>
                             </div>
                         </div>
                     </div>
@@ -291,26 +311,30 @@
                             <div class="courses__nav">
                                 <ul class="nav nav-tabs" id="courseTab" role="tablist">
                                     <li class="nav-item" role="presentation">
-                                        <button class="nav-link active" id="all-tab" data-bs-toggle="tab" data-bs-target="#all-tab-pane" type="button"
-                                            role="tab" aria-controls="all-tab-pane" aria-selected="true">
+                                        <button class="nav-link active" id="all-tab" data-bs-toggle="tab"
+                                            data-bs-target="#all-tab-pane" type="button" role="tab"
+                                            aria-controls="all-tab-pane" aria-selected="true">
                                             All Courses
                                         </button>
                                     </li>
                                     <li class="nav-item" role="presentation">
-                                        <button class="nav-link" id="design-tab" data-bs-toggle="tab" data-bs-target="#design-tab-pane" type="button"
-                                            role="tab" aria-controls="design-tab-pane" aria-selected="false">
+                                        <button class="nav-link" id="design-tab" data-bs-toggle="tab"
+                                            data-bs-target="#design-tab-pane" type="button" role="tab"
+                                            aria-controls="design-tab-pane" aria-selected="false">
                                             Design
                                         </button>
                                     </li>
                                     <li class="nav-item" role="presentation">
-                                        <button class="nav-link" id="business-tab" data-bs-toggle="tab" data-bs-target="#business-tab-pane" type="button"
-                                            role="tab" aria-controls="business-tab-pane" aria-selected="false">
+                                        <button class="nav-link" id="business-tab" data-bs-toggle="tab"
+                                            data-bs-target="#business-tab-pane" type="button" role="tab"
+                                            aria-controls="business-tab-pane" aria-selected="false">
                                             Business
                                         </button>
                                     </li>
                                     <li class="nav-item" role="presentation">
-                                        <button class="nav-link" id="development-tab" data-bs-toggle="tab" data-bs-target="#development-tab-pane" type="button"
-                                            role="tab" aria-controls="development-tab-pane" aria-selected="false">
+                                        <button class="nav-link" id="development-tab" data-bs-toggle="tab"
+                                            data-bs-target="#development-tab-pane" type="button" role="tab"
+                                            aria-controls="development-tab-pane" aria-selected="false">
                                             Development
                                         </button>
                                     </li>
@@ -320,7 +344,8 @@
                     </div>
                 </div>
                 <div class="tab-content" id="courseTabContent">
-                    <div class="tab-pane fade show active" id="all-tab-pane" role="tabpanel" aria-labelledby="all-tab" tabindex="0">
+                    <div class="tab-pane fade show active" id="all-tab-pane" role="tabpanel" aria-labelledby="all-tab"
+                        tabindex="0">
                         <div class="swiper courses-swiper-active">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
@@ -337,7 +362,8 @@
                                                 </li>
                                                 <li class="avg-rating"><i class="fas fa-star"></i> (4.8 Reviews)</li>
                                             </ul>
-                                            <h5 class="title"><a href="course-details.html">Learning JavaScript With Imagination</a></h5>
+                                            <h5 class="title"><a href="course-details.html">Learning JavaScript With
+                                                    Imagination</a></h5>
                                             <p class="author">By <a href="#">David Millar</a></p>
                                             <div class="courses__item-bottom">
                                                 <div class="button">
@@ -365,7 +391,8 @@
                                                 </li>
                                                 <li class="avg-rating"><i class="fas fa-star"></i> (4.5 Reviews)</li>
                                             </ul>
-                                            <h5 class="title"><a href="course-details.html">The Complete Graphic Design for Beginners</a></h5>
+                                            <h5 class="title"><a href="course-details.html">The Complete Graphic Design
+                                                    for Beginners</a></h5>
                                             <p class="author">By <a href="#">David Millar</a></p>
                                             <div class="courses__item-bottom">
                                                 <div class="button">
@@ -393,7 +420,8 @@
                                                 </li>
                                                 <li class="avg-rating"><i class="fas fa-star"></i> (4.3 Reviews)</li>
                                             </ul>
-                                            <h5 class="title"><a href="course-details.html">Learning Digital Marketing on Facebook</a></h5>
+                                            <h5 class="title"><a href="course-details.html">Learning Digital Marketing on
+                                                    Facebook</a></h5>
                                             <p class="author">By <a href="#">David Millar</a></p>
                                             <div class="courses__item-bottom">
                                                 <div class="button">
@@ -421,7 +449,8 @@
                                                 </li>
                                                 <li class="avg-rating"><i class="fas fa-star"></i> (4.8 Reviews)</li>
                                             </ul>
-                                            <h5 class="title"><a href="course-details.html">Financial Analyst Training & Investing Course</a></h5>
+                                            <h5 class="title"><a href="course-details.html">Financial Analyst Training &
+                                                    Investing Course</a></h5>
                                             <p class="author">By <a href="#">David Millar</a></p>
                                             <div class="courses__item-bottom">
                                                 <div class="button">
@@ -449,7 +478,8 @@
                                                 </li>
                                                 <li class="avg-rating"><i class="fas fa-star"></i> (4.5 Reviews)</li>
                                             </ul>
-                                            <h5 class="title"><a href="course-details.html">Data Analysis & Visualization Masterclass</a></h5>
+                                            <h5 class="title"><a href="course-details.html">Data Analysis & Visualization
+                                                    Masterclass</a></h5>
                                             <p class="author">By <a href="#">David Millar</a></p>
                                             <div class="courses__item-bottom">
                                                 <div class="button">
@@ -477,7 +507,8 @@
                                                 </li>
                                                 <li class="avg-rating"><i class="fas fa-star"></i> (4.7 Reviews)</li>
                                             </ul>
-                                            <h5 class="title"><a href="course-details.html">Master the Fundamentals of Math</a></h5>
+                                            <h5 class="title"><a href="course-details.html">Master the Fundamentals of
+                                                    Math</a></h5>
                                             <p class="author">By <a href="#">David Millar</a></p>
                                             <div class="courses__item-bottom">
                                                 <div class="button">
@@ -498,7 +529,8 @@
                             <div class="courses-button-next"><i class="flaticon-arrow-right"></i></div>
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="design-tab-pane" role="tabpanel" aria-labelledby="design-tab" tabindex="0">
+                    <div class="tab-pane fade" id="design-tab-pane" role="tabpanel" aria-labelledby="design-tab"
+                        tabindex="0">
                         <div class="swiper courses-swiper-active">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
@@ -515,7 +547,8 @@
                                                 </li>
                                                 <li class="avg-rating"><i class="fas fa-star"></i> (4.3 Reviews)</li>
                                             </ul>
-                                            <h5 class="title"><a href="course-details.html">Learning Digital Marketing on Facebook</a></h5>
+                                            <h5 class="title"><a href="course-details.html">Learning Digital Marketing on
+                                                    Facebook</a></h5>
                                             <p class="author">By <a href="#">David Millar</a></p>
                                             <div class="courses__item-bottom">
                                                 <div class="button">
@@ -543,7 +576,8 @@
                                                 </li>
                                                 <li class="avg-rating"><i class="fas fa-star"></i> (4.8 Reviews)</li>
                                             </ul>
-                                            <h5 class="title"><a href="course-details.html">Financial Analyst Training & Investing Course</a></h5>
+                                            <h5 class="title"><a href="course-details.html">Financial Analyst Training &
+                                                    Investing Course</a></h5>
                                             <p class="author">By <a href="#">David Millar</a></p>
                                             <div class="courses__item-bottom">
                                                 <div class="button">
@@ -571,7 +605,8 @@
                                                 </li>
                                                 <li class="avg-rating"><i class="fas fa-star"></i> (4.8 Reviews)</li>
                                             </ul>
-                                            <h5 class="title"><a href="course-details.html">Learning JavaScript With Imagination</a></h5>
+                                            <h5 class="title"><a href="course-details.html">Learning JavaScript With
+                                                    Imagination</a></h5>
                                             <p class="author">By <a href="#">David Millar</a></p>
                                             <div class="courses__item-bottom">
                                                 <div class="button">
@@ -599,7 +634,8 @@
                                                 </li>
                                                 <li class="avg-rating"><i class="fas fa-star"></i> (4.5 Reviews)</li>
                                             </ul>
-                                            <h5 class="title"><a href="course-details.html">The Complete Graphic Design for Beginners</a></h5>
+                                            <h5 class="title"><a href="course-details.html">The Complete Graphic Design
+                                                    for Beginners</a></h5>
                                             <p class="author">By <a href="#">David Millar</a></p>
                                             <div class="courses__item-bottom">
                                                 <div class="button">
@@ -627,7 +663,8 @@
                                                 </li>
                                                 <li class="avg-rating"><i class="fas fa-star"></i> (4.5 Reviews)</li>
                                             </ul>
-                                            <h5 class="title"><a href="course-details.html">Data Analysis & Visualization Masterclass</a></h5>
+                                            <h5 class="title"><a href="course-details.html">Data Analysis & Visualization
+                                                    Masterclass</a></h5>
                                             <p class="author">By <a href="#">David Millar</a></p>
                                             <div class="courses__item-bottom">
                                                 <div class="button">
@@ -655,7 +692,8 @@
                                                 </li>
                                                 <li class="avg-rating"><i class="fas fa-star"></i> (4.7 Reviews)</li>
                                             </ul>
-                                            <h5 class="title"><a href="course-details.html">Master the Fundamentals of Math</a></h5>
+                                            <h5 class="title"><a href="course-details.html">Master the Fundamentals of
+                                                    Math</a></h5>
                                             <p class="author">By <a href="#">David Millar</a></p>
                                             <div class="courses__item-bottom">
                                                 <div class="button">
@@ -676,7 +714,8 @@
                             <div class="courses-button-next"><i class="flaticon-arrow-right"></i></div>
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="business-tab-pane" role="tabpanel" aria-labelledby="business-tab" tabindex="0">
+                    <div class="tab-pane fade" id="business-tab-pane" role="tabpanel" aria-labelledby="business-tab"
+                        tabindex="0">
                         <div class="swiper courses-swiper-active">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
@@ -693,7 +732,8 @@
                                                 </li>
                                                 <li class="avg-rating"><i class="fas fa-star"></i> (4.5 Reviews)</li>
                                             </ul>
-                                            <h5 class="title"><a href="course-details.html">The Complete Graphic Design for Beginners</a></h5>
+                                            <h5 class="title"><a href="course-details.html">The Complete Graphic Design
+                                                    for Beginners</a></h5>
                                             <p class="author">By <a href="#">David Millar</a></p>
                                             <div class="courses__item-bottom">
                                                 <div class="button">
@@ -721,7 +761,8 @@
                                                 </li>
                                                 <li class="avg-rating"><i class="fas fa-star"></i> (4.3 Reviews)</li>
                                             </ul>
-                                            <h5 class="title"><a href="course-details.html">Learning Digital Marketing on Facebook</a></h5>
+                                            <h5 class="title"><a href="course-details.html">Learning Digital Marketing on
+                                                    Facebook</a></h5>
                                             <p class="author">By <a href="#">David Millar</a></p>
                                             <div class="courses__item-bottom">
                                                 <div class="button">
@@ -749,7 +790,8 @@
                                                 </li>
                                                 <li class="avg-rating"><i class="fas fa-star"></i> (4.8 Reviews)</li>
                                             </ul>
-                                            <h5 class="title"><a href="course-details.html">Financial Analyst Training & Investing Course</a></h5>
+                                            <h5 class="title"><a href="course-details.html">Financial Analyst Training &
+                                                    Investing Course</a></h5>
                                             <p class="author">By <a href="#">David Millar</a></p>
                                             <div class="courses__item-bottom">
                                                 <div class="button">
@@ -777,7 +819,8 @@
                                                 </li>
                                                 <li class="avg-rating"><i class="fas fa-star"></i> (4.5 Reviews)</li>
                                             </ul>
-                                            <h5 class="title"><a href="course-details.html">Data Analysis & Visualization Masterclass</a></h5>
+                                            <h5 class="title"><a href="course-details.html">Data Analysis & Visualization
+                                                    Masterclass</a></h5>
                                             <p class="author">By <a href="#">David Millar</a></p>
                                             <div class="courses__item-bottom">
                                                 <div class="button">
@@ -805,7 +848,8 @@
                                                 </li>
                                                 <li class="avg-rating"><i class="fas fa-star"></i> (4.8 Reviews)</li>
                                             </ul>
-                                            <h5 class="title"><a href="course-details.html">Learning JavaScript With Imagination</a></h5>
+                                            <h5 class="title"><a href="course-details.html">Learning JavaScript With
+                                                    Imagination</a></h5>
                                             <p class="author">By <a href="#">David Millar</a></p>
                                             <div class="courses__item-bottom">
                                                 <div class="button">
@@ -833,7 +877,8 @@
                                                 </li>
                                                 <li class="avg-rating"><i class="fas fa-star"></i> (4.7 Reviews)</li>
                                             </ul>
-                                            <h5 class="title"><a href="course-details.html">Master the Fundamentals of Math</a></h5>
+                                            <h5 class="title"><a href="course-details.html">Master the Fundamentals of
+                                                    Math</a></h5>
                                             <p class="author">By <a href="#">David Millar</a></p>
                                             <div class="courses__item-bottom">
                                                 <div class="button">
@@ -854,7 +899,8 @@
                             <div class="courses-button-next"><i class="flaticon-arrow-right"></i></div>
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="development-tab-pane" role="tabpanel" aria-labelledby="development-tab" tabindex="0">
+                    <div class="tab-pane fade" id="development-tab-pane" role="tabpanel"
+                        aria-labelledby="development-tab" tabindex="0">
                         <div class="swiper courses-swiper-active">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
@@ -871,7 +917,8 @@
                                                 </li>
                                                 <li class="avg-rating"><i class="fas fa-star"></i> (4.8 Reviews)</li>
                                             </ul>
-                                            <h5 class="title"><a href="course-details.html">Financial Analyst Training & Investing Course</a></h5>
+                                            <h5 class="title"><a href="course-details.html">Financial Analyst Training &
+                                                    Investing Course</a></h5>
                                             <p class="author">By <a href="#">David Millar</a></p>
                                             <div class="courses__item-bottom">
                                                 <div class="button">
@@ -899,7 +946,8 @@
                                                 </li>
                                                 <li class="avg-rating"><i class="fas fa-star"></i> (4.5 Reviews)</li>
                                             </ul>
-                                            <h5 class="title"><a href="course-details.html">Data Analysis & Visualization Masterclass</a></h5>
+                                            <h5 class="title"><a href="course-details.html">Data Analysis & Visualization
+                                                    Masterclass</a></h5>
                                             <p class="author">By <a href="#">David Millar</a></p>
                                             <div class="courses__item-bottom">
                                                 <div class="button">
@@ -927,7 +975,8 @@
                                                 </li>
                                                 <li class="avg-rating"><i class="fas fa-star"></i> (4.7 Reviews)</li>
                                             </ul>
-                                            <h5 class="title"><a href="course-details.html">Master the Fundamentals of Math</a></h5>
+                                            <h5 class="title"><a href="course-details.html">Master the Fundamentals of
+                                                    Math</a></h5>
                                             <p class="author">By <a href="#">David Millar</a></p>
                                             <div class="courses__item-bottom">
                                                 <div class="button">
@@ -955,7 +1004,8 @@
                                                 </li>
                                                 <li class="avg-rating"><i class="fas fa-star"></i> (4.8 Reviews)</li>
                                             </ul>
-                                            <h5 class="title"><a href="course-details.html">Learning JavaScript With Imagination</a></h5>
+                                            <h5 class="title"><a href="course-details.html">Learning JavaScript With
+                                                    Imagination</a></h5>
                                             <p class="author">By <a href="#">David Millar</a></p>
                                             <div class="courses__item-bottom">
                                                 <div class="button">
@@ -983,7 +1033,8 @@
                                                 </li>
                                                 <li class="avg-rating"><i class="fas fa-star"></i> (4.5 Reviews)</li>
                                             </ul>
-                                            <h5 class="title"><a href="course-details.html">The Complete Graphic Design for Beginners</a></h5>
+                                            <h5 class="title"><a href="course-details.html">The Complete Graphic Design
+                                                    for Beginners</a></h5>
                                             <p class="author">By <a href="#">David Millar</a></p>
                                             <div class="courses__item-bottom">
                                                 <div class="button">
@@ -1011,7 +1062,8 @@
                                                 </li>
                                                 <li class="avg-rating"><i class="fas fa-star"></i> (4.3 Reviews)</li>
                                             </ul>
-                                            <h5 class="title"><a href="course-details.html">Learning Digital Marketing on Facebook</a></h5>
+                                            <h5 class="title"><a href="course-details.html">Learning Digital Marketing on
+                                                    Facebook</a></h5>
                                             <p class="author">By <a href="#">David Millar</a></p>
                                             <div class="courses__item-bottom">
                                                 <div class="button">
@@ -1044,13 +1096,15 @@
                     <div class="col-lg-4">
                         <div class="newsletter__img-wrap">
                             <img src="img/others/newsletter_img.png" alt="img">
-                            <img src="img/others/newsletter_shape01.png" alt="img" data-aos="fade-up" data-aos-delay="400">
+                            <img src="img/others/newsletter_shape01.png" alt="img" data-aos="fade-up"
+                                data-aos-delay="400">
                             <img src="img/others/newsletter_shape02.png" alt="img" class="alltuchtopdown">
                         </div>
                     </div>
                     <div class="col-lg-8">
                         <div class="newsletter__content">
-                            <h2 class="title">Want to stay <span>informed</span> about <br> new <span>courses & study?</span></h2>
+                            <h2 class="title">Want to stay <span>informed</span> about <br> new <span>courses &
+                                    study?</span></h2>
                             <div class="newsletter__form">
                                 <form action="#">
                                     <input type="email" placeholder="Type your e-mail">
@@ -1077,10 +1131,11 @@
                                 <span class="sub-title">Skilled Introduce</span>
                                 <h2 class="title">Our Top Class & Expert Instructors in One Place</h2>
                             </div>
-                            <p>when an unknown printer took a galley of type and scrambled makespecimen book has survived not only five centuries</p>
-                            <div class="tg-button-wrap">
+                            <p>when an unknown printer took a galley of type and scrambled makespecimen book has survived
+                                not only five centuries</p>
+                            {{-- <div class="tg-button-wrap">
                                 <a href="instructors.html" class="btn arrow-btn">See All Instructors <img src="img/icons/right_arrow.svg" alt="img" class="injectable"></a>
-                            </div>
+                            </div> --}}
                         </div>
                     </div>
                     <div class="col-xl-8">
@@ -1089,7 +1144,8 @@
                                 <div class="col-sm-6">
                                     <div class="instructor__item">
                                         <div class="instructor__thumb">
-                                            <a href="instructor-datails.html"><img src="img/instructor/instructor01.png" alt="img"></a>
+                                            <a href="instructor-datails.html"><img src="img/instructor/instructor01.png"
+                                                    alt="img"></a>
                                         </div>
                                         <div class="instructor__content">
                                             <h2 class="title"><a href="instructor-datails.html">Mark Jukarberg</a></h2>
@@ -1112,7 +1168,8 @@
                                 <div class="col-sm-6">
                                     <div class="instructor__item">
                                         <div class="instructor__thumb">
-                                            <a href="instructor-datails.html"><img src="img/instructor/instructor02.png" alt="img"></a>
+                                            <a href="instructor-datails.html"><img src="img/instructor/instructor02.png"
+                                                    alt="img"></a>
                                         </div>
                                         <div class="instructor__content">
                                             <h2 class="title"><a href="instructor-datails.html">Olivia Mia</a></h2>
@@ -1135,7 +1192,8 @@
                                 <div class="col-sm-6">
                                     <div class="instructor__item">
                                         <div class="instructor__thumb">
-                                            <a href="instructor-datails.html"><img src="img/instructor/instructor03.png" alt="img"></a>
+                                            <a href="instructor-datails.html"><img src="img/instructor/instructor03.png"
+                                                    alt="img"></a>
                                         </div>
                                         <div class="instructor__content">
                                             <h2 class="title"><a href="instructor-datails.html">William Hope</a></h2>
@@ -1158,7 +1216,8 @@
                                 <div class="col-sm-6">
                                     <div class="instructor__item">
                                         <div class="instructor__thumb">
-                                            <a href="instructor-datails.html"><img src="img/instructor/instructor04.png" alt="img"></a>
+                                            <a href="instructor-datails.html"><img src="img/instructor/instructor04.png"
+                                                    alt="img"></a>
                                         </div>
                                         <div class="instructor__content">
                                             <h2 class="title"><a href="instructor-datails.html">Sophia Ava</a></h2>
@@ -1187,7 +1246,7 @@
         <!-- instructor-area-end -->
 
         <!-- fact-area -->
-        <section class="fact__area">
+        {{-- <section class="fact__area">
             <div class="container">
                 <div class="fact__inner-wrap">
                     <div class="row">
@@ -1218,11 +1277,11 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> --}}
         <!-- fact-area-end -->
 
         <!-- faq-area -->
-        <section class="faq__area">
+        <section>
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-6">
@@ -1235,10 +1294,12 @@
                             <div class="faq__img">
                                 <img src="img/others/faq_img.png" alt="img">
                                 <div class="shape-one">
-                                    <img src="img/others/faq_shape01.svg" class="injectable tg-motion-effects4" alt="img">
+                                    <img src="img/others/faq_shape01.svg" class="injectable tg-motion-effects4"
+                                        alt="img">
                                 </div>
                                 <div class="shape-two">
-                                    <span class="svg-icon" id="faq-svg" data-svg-icon="img/others/faq_shape02.svg"></span>
+                                    <span class="svg-icon" id="faq-svg"
+                                        data-svg-icon="img/others/faq_shape02.svg"></span>
                                 </div>
                             </div>
                         </div>
@@ -1249,62 +1310,78 @@
                                 <span class="sub-title">Faq’s</span>
                                 <h2 class="title">Start Learning From <br> World’s Pro Instructors</h2>
                             </div>
-                            <p>Groove’s intuitive shared inbox makes it easy for team members to organize, prioritize and.In this episode.</p>
+                            <p>Octacodes Institute helps students gain real-world IT and programming skills with expert
+                                guidance and project-based learning.</p>
                             <div class="faq__wrap">
                                 <div class="accordion" id="accordionExample">
                                     <div class="accordion-item">
                                         <h2 class="accordion-header">
-                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                                                aria-expanded="true" aria-controls="collapseOne">
-                                                What’s Skillgrow Want to give you?
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseOne" aria-expanded="true"
+                                                aria-controls="collapseOne">
+                                                What’s Octacodes Want to give you?
                                             </button>
                                         </h2>
-                                        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                                        <div id="collapseOne" class="accordion-collapse collapse show"
+                                            data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
-                                                <p>Groove’s intuitive shared inbox makes it easy for team members organize prioritize and.In this episode.urvived not only five centuries.Edhen an unknown printer took a galley of type and scrambl
-                                                </p>
+                                                <p>Octacodes Institute aims to build your foundation in IT by teaching
+                                                    essential technologies like HTML, CSS, JavaScript, Bootstrap, jQuery,
+                                                    Laravel, PHP, Python, MySQL, and DSA — making you ready for real jobs
+                                                    and freelancing opportunities.</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="accordion-item">
                                         <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                                aria-expanded="false" aria-controls="collapseTwo">
                                                 Why choose us for your education?
                                             </button>
                                         </h2>
-                                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                        <div id="collapseTwo" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
-                                                <p>Groove’s intuitive shared inbox makes it easy for team members organize prioritize and.In this episode.urvived not only five centuries.Edhen an unknown printer took a galley of type and scrambl
+                                                <p>At Octacodes Institute, we offer a practical and affordable learning
+                                                    environment with real projects, expert mentors, and industry-focused
+                                                    training that prepares you for internships, jobs, and freelance work.
                                                 </p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="accordion-item">
                                         <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                                aria-expanded="false" aria-controls="collapseThree">
                                                 How We Provide Service For you?
                                             </button>
                                         </h2>
-                                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                        <div id="collapseThree" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
-                                                <p>Groove’s intuitive shared inbox makes it easy for team members organize prioritize and.In this episode.urvived not only five centuries.Edhen an unknown printer took a galley of type and scrambl
+                                                <p>Octacodes Institute provides training via live sessions, recorded
+                                                    content, one-on-one mentoring, project tasks, regular assessments, and
+                                                    doubt-solving sessions to ensure you learn effectively and confidently.
                                                 </p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="accordion-item">
                                         <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseFour"
+                                                aria-expanded="false" aria-controls="collapseFour">
                                                 Are you Affordable For Your Course
                                             </button>
                                         </h2>
-                                        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                        <div id="collapseFour" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
-                                                <p>Groove’s intuitive shared inbox makes it easy for team members organize prioritize and.In this episode.urvived not only five centuries.Edhen an unknown printer took a galley of type and scrambl
-                                                </p>
+                                                <p>Yes, Octacodes Institute offers high-quality IT training at
+                                                    student-friendly prices with installment options, so that every learner
+                                                    can grow in tech without financial burden.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -1315,10 +1392,12 @@
                 </div>
             </div>
         </section>
+
+
         <!-- faq-area-end -->
 
         <!-- features-area -->
-        <section class="features__area">
+        {{-- <section class="features__area">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-xl-6">
@@ -1376,11 +1455,11 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> --}}
         <!-- features-area-end -->
 
         <!-- instructor-area-two -->
-        <section class="instructor__area-two">
+        {{-- <section class="instructor__area-two">
             <div class="container">
                 <div class="instructor__item-wrap-two">
                     <div class="row">
@@ -1427,11 +1506,11 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> --}}
         <!-- instructor-area-two-end -->
 
         <!-- blog-area -->
-        <section class="blog__post-area">
+        {{-- <section class="blog__post-area">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-6">
@@ -1513,14 +1592,10 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> --}}
         <!-- blog-area-end -->
 
     </main>
     <!-- main-area-end -->
 
 @endsection
-
-
-
-
